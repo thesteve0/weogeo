@@ -1,0 +1,72 @@
+
+f1bca22c-013e-4e57-a78b-f9bbb3a918e8
+USGS DRG Topo Felton, CA
+RASTER
+["Layer_1"]
+{"number_of_lines": "10657", "north": -96662.277645466, "west": -189395.961743919, "line_pixel_size": "1.52811639316174", "sample_pixel_size": "1.52811639316174", "proj4": "+proj=aea +lat_1=34 +lat_2=40.5 +lat_0=0 +lon_0=-120 +x_0=0 +y_0=-4000000 +ellps=clrk66 +datum=NAD27 +units=m +no_defs ", "projection_datum": "albers_equal_area-nad27", "number_of_samples": "8127", "east": -176976.959816694, "south": -112947.414047391}
+
+
+----/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/----
+
+63472b72-0f0d-2554-8120-67b445942ff7
+TIGER/Line - Santa Cruz County, California
+VECTOR
+["Address Range-Feature", "Area Landmark", "Area Hydrography", "All Lines", "Topological Faces (Polygons with all Geocodes)", "Linear Hydrography", "Point Landmark", "All Roads", "Address Range-Feature Name Relationship File", "Faces-Area Hydrography Relationship File"]
+{"projection_datum": "geo-nad83"}
+
+
+----/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/----
+
+85da9c3d-a58b-9b5f-9c59-f324f4d4d186
+TIGER/Line 2011 Census Tracts, Block Groups & Blocks - California
+VECTOR
+["Census Block Group", "Census Block", "Census Tract", "Tribal Block Group", "Tribal Census Tract"]
+{"projection_datum": "geo-nad83"}
+
+----/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/----
+
+1a9f8125-cd90-ef5a-9c16-c3329fb51497
+TIGER/Line 2011: State Based Files - CALIFORNIA
+VECTOR
+["County Subdivision", "School District--Secondary", "State Legislative District--Lower Chamber", "State Legislative District--Upper Chamber", "Census Block", "Census Tract", "Census Block Group", "School District--Elementary", "Place", "Primary and Secondary Roads", "School District--Unified"]
+{"projection_datum": "geo-nad83"}
+
+----/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/----
+
+5c910ad3-fc69-4023-b180-8c862639eadb
+2010 California ZIP Code Boundaries
+VECTOR
+["Layer_1"]
+{"number_of_lines": "1", "north": 90.0, "west": -180.0, "line_pixel_size": "-1", "sample_pixel_size": "1", "projection_datum": "geo-nad83", "number_of_samples": "1", "east": 180.0, "south": -90.0}
+
+----/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/----
+
+1a4d4a22-d84b-4cb3-b874-1a99bf6d42eb
+TIGER/Line School District Boundaries - California
+VECTOR
+["School District--Elementary", "School District--Secondary", "School District--Unified"]
+{"projection_datum": "geo-nad83"}
+
+----/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/----
+
+fd732c1b-880b-4ea2-ac4e-60e8f95d677f
+TIGER/Line Roads - California
+VECTOR
+["Primary Roads", "Primary and Secondary Roads", "All Roads", "Rails"]
+{"projection_datum": "geo-nad83"}
+
+----/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/----
+
+e1f0bcce-30cb-4890-81e2-e5e768c7ddfa
+TIGER/Line Water Boundaries - California
+VECTOR
+["Area Hydrography", "Linear Hydrography"]
+{"projection_datum": "geo-nad83"}
+
+----/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/----
+
+8444feba-0a80-4937-84d8-86d5997b13ec
+National Wetlands Inventory: CA
+VECTOR
+["Wetland Polygon", "Scanned Vectors"]
+{"projection_datum": "aea-nad83"}
