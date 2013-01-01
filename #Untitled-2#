@@ -1,0 +1,2206 @@
+[
+    200, 
+    {
+        "current_page": null, 
+        "items": [
+            {
+                "ancestors_price": 0.0, 
+                "api_url": "https://market.weogeo.com/datasets/topo-usgs-drg-topo-castle-rock-ridge-ca.json", 
+                "boundaries": {
+                    "baseimage": {
+                        "east": -13577617.0943, 
+                        "line_pixel_size": "-81.2551953125", 
+                        "north": 4474968.192, 
+                        "number_of_lines": "256", 
+                        "number_of_samples": "256", 
+                        "proj4": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs", 
+                        "projection_datum": "spherical_mercator", 
+                        "sample_pixel_size": "81.0362476563", 
+                        "south": 4454166.862, 
+                        "west": -13598362.3737
+                    }, 
+                    "data": {
+                        "east": -176672.475242099, 
+                        "line_pixel_size": "1.52797435032235", 
+                        "north": -82754.1177303411, 
+                        "number_of_lines": "10656", 
+                        "number_of_samples": "8127", 
+                        "proj4": "+proj=aea +lat_1=34 +lat_2=40.5 +lat_0=0 +lon_0=-120 +x_0=0 +y_0=-4000000 +ellps=clrk66 +datum=NAD27 +units=m +no_defs ", 
+                        "projection_datum": "albers_equal_area-nad27", 
+                        "sample_pixel_size": "1.52797435032235", 
+                        "south": -99036.212407376, 
+                        "west": -189090.322787168
+                    }, 
+                    "geo": {
+                        "east": -121.9920427431, 
+                        "line_pixel_size": "-0.0000151980", 
+                        "north": 37.2567872022, 
+                        "number_of_lines": "9795", 
+                        "number_of_samples": "9477", 
+                        "proj4": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs ", 
+                        "projection_datum": "geo-wgs84", 
+                        "sample_pixel_size": "0.0000151980", 
+                        "south": 37.10792279, 
+                        "west": -122.1360741913
+                    }, 
+                    "preview": {
+                        "east": -176672.4752422804, 
+                        "line_pixel_size": "-1.5279743503", 
+                        "north": -82754.1177303411, 
+                        "number_of_lines": "10656", 
+                        "number_of_samples": "8127", 
+                        "proj4": "+proj=aea +lat_1=34 +lat_2=40.5 +lat_0=0 +lon_0=-120 +x_0=0 +y_0=-4000000 +ellps=clrk66 +datum=NAD27 +units=m +no_defs ", 
+                        "projection_datum": "albers_equal_area-nad27", 
+                        "sample_pixel_size": "1.5279743503", 
+                        "south": -99036.2124071379, 
+                        "west": -189090.3227871685
+                    }, 
+                    "tiles": {
+                        "east": -13579973.495, 
+                        "line_pixel_size": "-1.9198273640", 
+                        "north": 4474968.192, 
+                        "number_of_lines": "10835", 
+                        "number_of_samples": "8351", 
+                        "proj4": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs", 
+                        "projection_datum": "spherical_mercator", 
+                        "sample_pixel_size": "1.9198273640", 
+                        "south": 4454166.862, 
+                        "west": -13596005.973
+                    }
+                }, 
+                "center_lat": 37.1823549961, 
+                "center_long": -122.0640584672, 
+                "children_count": 0, 
+                "content_license": {
+                    "name": "WeoGeo Content License 1.0", 
+                    "url": "http://licenses.weogeo.com/licenses/1/original.html?1269973409"
+                }, 
+                "content_license_id": 1, 
+                "data_created_on": null, 
+                "data_files_size": 18134867, 
+                "data_type": "RASTER", 
+                "datum": "NAD27", 
+                "description": "\n<p>&nbsp;</p>\n<p><a title=\"USGS homepage\" href=\"http://www.usgs.gov/\" target=\"_blank\"><img src=\"http://dv3.weogeo.info/dataset_tiles/e64ca07f-fc97-40a6-a3e5-f60483982356/public/USGS_logo.png\" alt=\"\" width=\"120\" height=\"44\" /></a></p>\n<p>&nbsp;</p>\n<p>United States Geological Survey (USGS) Topographic maps detail the shape and elevation of the land with contour lines and display prominent natural and cultural features. The original, paper topo maps produced by the USGS have been scanned and georeferenced to create digital raster graphics (DRGs) for use with geospatial programs.</p>\n<p>&nbsp;</p>\n<p><em>Example Topo detail for illustrative purposes and may not represent this particular listing:</em></p>\n<p><img src=\"http://dv3.weogeo.info/dataset_tiles/e64ca07f-fc97-40a6-a3e5-f60483982356/public/topo-24k.png\" alt=\"USGS Topo Example\" width=\"454\" height=\"236\" /></p>\n<p>&nbsp;</p>\n<table border=\"1\" frame=\"void\">\n<tbody>\n<tr>\n<td>Name:</td>\n<td>&nbsp; &nbsp; &nbsp;Castle Rock Ridge</td>\n</tr>\n<tr>\n<td>Series:</td>\n<td>&nbsp; &nbsp; &nbsp;7.5 minute</td>\n</tr>\n<tr>\n<td>Scale:</td>\n<td>&nbsp; &nbsp; &nbsp;1:24,000 (1 cm = 240 m)</td>\n</tr>\n<tr>\n<td>State(s):</td>\n<td>&nbsp; &nbsp; &nbsp;California</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>\n<p>Additional topos for this series and scale can be found here:&nbsp;</p>\n<p><a href=\"http://market.weogeo.com/datasets/topo-usgs-drg-topo-24k-master.html\">USGS DRG Topo 24k Master</a>.</p>\n<p>&nbsp;</p>\n<p>For more information, visit <a href=\"http://topomaps.usgs.gov/index.html\">USGS Topographic Maps</a>.</p>\n", 
+                "east": -121.9920427431, 
+                "events_api_url": "https://market.weogeo.com/datasets/553f8123-5066-4eb9-9a64-8b27316707b2/events.json", 
+                "events_api_url_template": "https://market.weogeo.com/datasets/553f8123-5066-4eb9-9a64-8b27316707b2/events/${id}.json", 
+                "file_format": "GeoTIFF", 
+                "from_appliance?": false, 
+                "group_ids": [], 
+                "hosted": true, 
+                "is_library_transfer": false, 
+                "kml_file_size": 1760557, 
+                "large_job_size_threshold": null, 
+                "layer_contributions": null, 
+                "layers": [
+                    "Layer_1"
+                ], 
+                "library": {
+                    "csw_url": "http://topo-market.weogeo.com/csw", 
+                    "dataset_api_url_template": "https://topo.weogeo.com/datasets/${id}.json", 
+                    "dataset_page_url_template": "https://topo.weogeo.com/datasets/${id}", 
+                    "datasets_api_url": "https://topo.weogeo.com/datasets.json", 
+                    "id": 38, 
+                    "job_url_template": "https://topo.weogeo.com/jobs/${id}.json", 
+                    "name": "USGS DRG/Topo", 
+                    "private_store_url": "http://topo-market.weogeo.com/", 
+                    "subdomain": "topo", 
+                    "tier_name": "enterprise"
+                }, 
+                "listing_status": {
+                    "library": {
+                        "ready": true, 
+                        "status_causes": []
+                    }, 
+                    "market": {
+                        "ready": true, 
+                        "status_causes": []
+                    }, 
+                    "process": {
+                        "ready": true, 
+                        "status_causes": []
+                    }
+                }, 
+                "market": "Complete", 
+                "max_price": 0.0, 
+                "min_price": 0.0, 
+                "misc_files_size": 0, 
+                "name": "USGS DRG Topo Castle Rock Ridge, CA", 
+                "north": 37.2567872022, 
+                "number_of_layers": 1, 
+                "order_all_data_allowed?": true, 
+                "page_url": "https://market.weogeo.com/datasets/topo-usgs-drg-topo-castle-rock-ridge-ca", 
+                "parents_count": 0, 
+                "permalink": "topo-usgs-drg-topo-castle-rock-ridge-ca", 
+                "price_lut": null, 
+                "price_type": "FIXED", 
+                "projection": "albers_equal_area", 
+                "rating": 0.0, 
+                "royalty_model": "CREDITED", 
+                "scales": "11;12;13;14;15;16", 
+                "south": 37.10792279, 
+                "spatial_resolution": 1.52797435032235, 
+                "spatial_resolution_in_meters": 1.52797435032235, 
+                "status": "Approved", 
+                "tile_file_format": "jpg", 
+                "tile_layer_type": "xyz", 
+                "tile_order": "yx", 
+                "token": "553f8123-5066-4eb9-9a64-8b27316707b2", 
+                "transaction_fee_rate": 0.1, 
+                "uploaded_at": "2012/03/04 16:58:30 +0000", 
+                "user": {
+                    "rating": 4.6, 
+                    "username": null, 
+                    "votes": 29
+                }, 
+                "votes": 0, 
+                "weofile_url": "https://market.weogeo.com/datasets/topo-usgs-drg-topo-castle-rock-ridge-ca.weo", 
+                "west": -122.1360741913, 
+                "x_conv": null, 
+                "y_conv": null
+            }, 
+            {
+                "ancestors_price": 0.0, 
+                "api_url": "https://market.weogeo.com/datasets/topo-usgs-drg-topo-big-basin-ca.json", 
+                "boundaries": {
+                    "baseimage": {
+                        "east": -13591486.4495, 
+                        "line_pixel_size": "-80.9004648438", 
+                        "north": 4474926.865, 
+                        "number_of_lines": "256", 
+                        "number_of_samples": "256", 
+                        "proj4": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs", 
+                        "projection_datum": "spherical_mercator", 
+                        "sample_pixel_size": "80.9742031250", 
+                        "south": 4454216.346, 
+                        "west": -13612215.8455
+                    }, 
+                    "data": {
+                        "east": -187717.733044677, 
+                        "line_pixel_size": "1.52751179097053", 
+                        "north": -82547.2687596151, 
+                        "number_of_lines": "10602", 
+                        "number_of_samples": "8119", 
+                        "proj4": "+proj=aea +lat_1=34 +lat_2=40.5 +lat_0=0 +lon_0=-120 +x_0=0 +y_0=-4000000 +ellps=clrk66 +datum=NAD27 +units=m +no_defs ", 
+                        "projection_datum": "albers_equal_area-nad27", 
+                        "sample_pixel_size": "1.52751179097053", 
+                        "south": -98741.9487674847, 
+                        "west": -200119.601275566
+                    }, 
+                    "geo": {
+                        "east": -122.1165538043, 
+                        "line_pixel_size": "-0.0000152048", 
+                        "north": 37.2564915317, 
+                        "number_of_lines": "9749", 
+                        "number_of_samples": "9475", 
+                        "proj4": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs ", 
+                        "projection_datum": "geo-wgs84", 
+                        "sample_pixel_size": "0.0000152048", 
+                        "south": 37.1082598717, 
+                        "west": -122.2606193473
+                    }, 
+                    "preview": {
+                        "east": -187717.7330444374, 
+                        "line_pixel_size": "-1.5275117910", 
+                        "north": -82547.2687596151, 
+                        "number_of_lines": "10602", 
+                        "number_of_samples": "8119", 
+                        "proj4": "+proj=aea +lat_1=34 +lat_2=40.5 +lat_0=0 +lon_0=-120 +x_0=0 +y_0=-4000000 +ellps=clrk66 +datum=NAD27 +units=m +no_defs ", 
+                        "projection_datum": "albers_equal_area-nad27", 
+                        "sample_pixel_size": "1.5275117910", 
+                        "south": -98741.9487677971, 
+                        "west": -200119.6012755664
+                    }, 
+                    "tiles": {
+                        "east": -13593832.563, 
+                        "line_pixel_size": "-1.9192399876", 
+                        "north": 4474926.865, 
+                        "number_of_lines": "10791", 
+                        "number_of_samples": "8356", 
+                        "proj4": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs", 
+                        "projection_datum": "spherical_mercator", 
+                        "sample_pixel_size": "1.9192399876", 
+                        "south": 4454216.346, 
+                        "west": -13609869.732
+                    }
+                }, 
+                "center_lat": 37.1823757017, 
+                "center_long": -122.1885865758, 
+                "children_count": 0, 
+                "content_license": {
+                    "name": "WeoGeo Content License 1.0", 
+                    "url": "http://licenses.weogeo.com/licenses/1/original.html?1269973409"
+                }, 
+                "content_license_id": 1, 
+                "data_created_on": null, 
+                "data_files_size": 17362529, 
+                "data_type": "RASTER", 
+                "datum": "NAD27", 
+                "description": "\n<p>&nbsp;</p>\n<p><a title=\"USGS homepage\" href=\"http://www.usgs.gov/\" target=\"_blank\"><img src=\"http://dv3.weogeo.info/dataset_tiles/e64ca07f-fc97-40a6-a3e5-f60483982356/public/USGS_logo.png\" alt=\"\" width=\"120\" height=\"44\" /></a></p>\n<p>&nbsp;</p>\n<p>United States Geological Survey (USGS) Topographic maps detail the shape and elevation of the land with contour lines and display prominent natural and cultural features. The original, paper topo maps produced by the USGS have been scanned and georeferenced to create digital raster graphics (DRGs) for use with geospatial programs.</p>\n<p>&nbsp;</p>\n<p><em>Example Topo detail for illustrative purposes and may not represent this particular listing:</em></p>\n<p><img src=\"http://dv3.weogeo.info/dataset_tiles/e64ca07f-fc97-40a6-a3e5-f60483982356/public/topo-24k.png\" alt=\"USGS Topo Example\" width=\"454\" height=\"236\" /></p>\n<p>&nbsp;</p>\n<table border=\"1\" frame=\"void\">\n<tbody>\n<tr>\n<td>Name:</td>\n<td>&nbsp; &nbsp; &nbsp;Big Basin</td>\n</tr>\n<tr>\n<td>Series:</td>\n<td>&nbsp; &nbsp; &nbsp;7.5 minute</td>\n</tr>\n<tr>\n<td>Scale:</td>\n<td>&nbsp; &nbsp; &nbsp;1:24,000 (1 cm = 240 m)</td>\n</tr>\n<tr>\n<td>State(s):</td>\n<td>&nbsp; &nbsp; &nbsp;California</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>\n<p>Additional topos for this series and scale can be found here:&nbsp;</p>\n<p><a href=\"http://market.weogeo.com/datasets/topo-usgs-drg-topo-24k-master.html\">USGS DRG Topo 24k Master</a>.</p>\n<p>&nbsp;</p>\n<p>For more information, visit <a href=\"http://topomaps.usgs.gov/index.html\">USGS Topographic Maps</a>.</p>\n", 
+                "east": -122.1165538043, 
+                "events_api_url": "https://market.weogeo.com/datasets/13ebb30c-b67e-43d4-bd63-f1f7761a9b0c/events.json", 
+                "events_api_url_template": "https://market.weogeo.com/datasets/13ebb30c-b67e-43d4-bd63-f1f7761a9b0c/events/${id}.json", 
+                "file_format": "GeoTIFF", 
+                "from_appliance?": false, 
+                "group_ids": [], 
+                "hosted": true, 
+                "is_library_transfer": false, 
+                "kml_file_size": 1772466, 
+                "large_job_size_threshold": null, 
+                "layer_contributions": null, 
+                "layers": [
+                    "Layer_1"
+                ], 
+                "library": {
+                    "csw_url": "http://topo-market.weogeo.com/csw", 
+                    "dataset_api_url_template": "https://topo.weogeo.com/datasets/${id}.json", 
+                    "dataset_page_url_template": "https://topo.weogeo.com/datasets/${id}", 
+                    "datasets_api_url": "https://topo.weogeo.com/datasets.json", 
+                    "id": 38, 
+                    "job_url_template": "https://topo.weogeo.com/jobs/${id}.json", 
+                    "name": "USGS DRG/Topo", 
+                    "private_store_url": "http://topo-market.weogeo.com/", 
+                    "subdomain": "topo", 
+                    "tier_name": "enterprise"
+                }, 
+                "listing_status": {
+                    "library": {
+                        "ready": true, 
+                        "status_causes": []
+                    }, 
+                    "market": {
+                        "ready": true, 
+                        "status_causes": []
+                    }, 
+                    "process": {
+                        "ready": true, 
+                        "status_causes": []
+                    }
+                }, 
+                "market": "Complete", 
+                "max_price": 0.0, 
+                "min_price": 0.0, 
+                "misc_files_size": 0, 
+                "name": "USGS DRG Topo Big Basin, CA", 
+                "north": 37.2564915317, 
+                "number_of_layers": 1, 
+                "order_all_data_allowed?": true, 
+                "page_url": "https://market.weogeo.com/datasets/topo-usgs-drg-topo-big-basin-ca", 
+                "parents_count": 0, 
+                "permalink": "topo-usgs-drg-topo-big-basin-ca", 
+                "price_lut": null, 
+                "price_type": "FIXED", 
+                "projection": "albers_equal_area", 
+                "rating": 0.0, 
+                "royalty_model": "CREDITED", 
+                "scales": "11;12;13;14;15;16", 
+                "south": 37.1082598717, 
+                "spatial_resolution": 1.52751179097053, 
+                "spatial_resolution_in_meters": 1.52751179097053, 
+                "status": "Approved", 
+                "tile_file_format": "jpg", 
+                "tile_layer_type": "xyz", 
+                "tile_order": "yx", 
+                "token": "13ebb30c-b67e-43d4-bd63-f1f7761a9b0c", 
+                "transaction_fee_rate": 0.1, 
+                "uploaded_at": "2012/03/03 17:40:01 +0000", 
+                "user": {
+                    "rating": 4.6, 
+                    "username": null, 
+                    "votes": 29
+                }, 
+                "votes": 0, 
+                "weofile_url": "https://market.weogeo.com/datasets/topo-usgs-drg-topo-big-basin-ca.weo", 
+                "west": -122.2606193473, 
+                "x_conv": null, 
+                "y_conv": null
+            }, 
+            {
+                "ancestors_price": 0.0, 
+                "api_url": "https://market.weogeo.com/datasets/topo-usgs-drg-topo-felton-ca.json", 
+                "boundaries": {
+                    "baseimage": {
+                        "east": -13577635.677, 
+                        "line_pixel_size": "-81.1374140625", 
+                        "north": 4457478.778, 
+                        "number_of_lines": "256", 
+                        "number_of_samples": "256", 
+                        "proj4": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs", 
+                        "projection_datum": "spherical_mercator", 
+                        "sample_pixel_size": "80.9130156250", 
+                        "south": 4436707.6, 
+                        "west": -13598349.409
+                    }, 
+                    "data": {
+                        "east": -176976.959816694, 
+                        "line_pixel_size": "1.52811639316174", 
+                        "north": -96662.277645466, 
+                        "number_of_lines": "10657", 
+                        "number_of_samples": "8127", 
+                        "proj4": "+proj=aea +lat_1=34 +lat_2=40.5 +lat_0=0 +lon_0=-120 +x_0=0 +y_0=-4000000 +ellps=clrk66 +datum=NAD27 +units=m +no_defs ", 
+                        "projection_datum": "albers_equal_area-nad27", 
+                        "sample_pixel_size": "1.52811639316174", 
+                        "south": -112947.414047391, 
+                        "west": -189395.961743919
+                    }, 
+                    "geo": {
+                        "east": -121.9921849863, 
+                        "line_pixel_size": "-0.0000151869", 
+                        "north": 37.1316377542, 
+                        "number_of_lines": "9805", 
+                        "number_of_samples": "9469", 
+                        "proj4": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs ", 
+                        "projection_datum": "geo-wgs84", 
+                        "sample_pixel_size": "0.0000151869", 
+                        "south": 36.9827297824, 
+                        "west": -122.1359901453
+                    }, 
+                    "preview": {
+                        "east": -176976.9598163831, 
+                        "line_pixel_size": "-1.5281163932", 
+                        "north": -96662.277645466, 
+                        "number_of_lines": "10657", 
+                        "number_of_samples": "8127", 
+                        "proj4": "+proj=aea +lat_1=34 +lat_2=40.5 +lat_0=0 +lon_0=-120 +x_0=0 +y_0=-4000000 +ellps=clrk66 +datum=NAD27 +units=m +no_defs ", 
+                        "projection_datum": "albers_equal_area-nad27", 
+                        "sample_pixel_size": "1.5281163932", 
+                        "south": -112947.4140477984, 
+                        "west": -189395.9617439195
+                    }, 
+                    "tiles": {
+                        "east": -13579988.662, 
+                        "line_pixel_size": "-1.9168676808", 
+                        "north": 4457478.778, 
+                        "number_of_lines": "10836", 
+                        "number_of_samples": "8351", 
+                        "proj4": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs", 
+                        "projection_datum": "spherical_mercator", 
+                        "sample_pixel_size": "1.9168676808", 
+                        "south": 4436707.6, 
+                        "west": -13595996.424
+                    }
+                }, 
+                "center_lat": 37.0571837683, 
+                "center_long": -122.0640875658, 
+                "children_count": 0, 
+                "content_license": {
+                    "name": "WeoGeo Content License 1.0", 
+                    "url": "http://licenses.weogeo.com/licenses/1/original.html?1269973409"
+                }, 
+                "content_license_id": 1, 
+                "data_created_on": null, 
+                "data_files_size": 16491705, 
+                "data_type": "RASTER", 
+                "datum": "NAD27", 
+                "description": "\n<p>&nbsp;</p>\n<p><a title=\"USGS homepage\" href=\"http://www.usgs.gov/\" target=\"_blank\"><img src=\"http://dv3.weogeo.info/dataset_tiles/e64ca07f-fc97-40a6-a3e5-f60483982356/public/USGS_logo.png\" alt=\"\" width=\"120\" height=\"44\" /></a></p>\n<p>&nbsp;</p>\n<p>United States Geological Survey (USGS) Topographic maps detail the shape and elevation of the land with contour lines and display prominent natural and cultural features. The original, paper topo maps produced by the USGS have been scanned and georeferenced to create digital raster graphics (DRGs) for use with geospatial programs.</p>\n<p>&nbsp;</p>\n<p><em>Example Topo detail for illustrative purposes and may not represent this particular listing:</em></p>\n<p><img src=\"http://dv3.weogeo.info/dataset_tiles/e64ca07f-fc97-40a6-a3e5-f60483982356/public/topo-24k.png\" alt=\"USGS Topo Example\" width=\"454\" height=\"236\" /></p>\n<p>&nbsp;</p>\n<table border=\"1\" frame=\"void\">\n<tbody>\n<tr>\n<td>Name:</td>\n<td>&nbsp; &nbsp; &nbsp;Felton</td>\n</tr>\n<tr>\n<td>Series:</td>\n<td>&nbsp; &nbsp; &nbsp;7.5 minute</td>\n</tr>\n<tr>\n<td>Scale:</td>\n<td>&nbsp; &nbsp; &nbsp;1:24,000 (1 cm = 240 m)</td>\n</tr>\n<tr>\n<td>State(s):</td>\n<td>&nbsp; &nbsp; &nbsp;California</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>\n<p>Additional topos for this series and scale can be found here:&nbsp;</p>\n<p><a href=\"http://market.weogeo.com/datasets/topo-usgs-drg-topo-24k-master.html\">USGS DRG Topo 24k Master</a>.</p>\n<p>&nbsp;</p>\n<p>For more information, visit <a href=\"http://topomaps.usgs.gov/index.html\">USGS Topographic Maps</a>.</p>\n", 
+                "east": -121.9921849863, 
+                "events_api_url": "https://market.weogeo.com/datasets/f1bca22c-013e-4e57-a78b-f9bbb3a918e8/events.json", 
+                "events_api_url_template": "https://market.weogeo.com/datasets/f1bca22c-013e-4e57-a78b-f9bbb3a918e8/events/${id}.json", 
+                "file_format": "GeoTIFF", 
+                "from_appliance?": false, 
+                "group_ids": [], 
+                "hosted": true, 
+                "is_library_transfer": false, 
+                "kml_file_size": 1758124, 
+                "large_job_size_threshold": null, 
+                "layer_contributions": null, 
+                "layers": [
+                    "Layer_1"
+                ], 
+                "library": {
+                    "csw_url": "http://topo-market.weogeo.com/csw", 
+                    "dataset_api_url_template": "https://topo.weogeo.com/datasets/${id}.json", 
+                    "dataset_page_url_template": "https://topo.weogeo.com/datasets/${id}", 
+                    "datasets_api_url": "https://topo.weogeo.com/datasets.json", 
+                    "id": 38, 
+                    "job_url_template": "https://topo.weogeo.com/jobs/${id}.json", 
+                    "name": "USGS DRG/Topo", 
+                    "private_store_url": "http://topo-market.weogeo.com/", 
+                    "subdomain": "topo", 
+                    "tier_name": "enterprise"
+                }, 
+                "listing_status": {
+                    "library": {
+                        "ready": true, 
+                        "status_causes": []
+                    }, 
+                    "market": {
+                        "ready": true, 
+                        "status_causes": []
+                    }, 
+                    "process": {
+                        "ready": true, 
+                        "status_causes": []
+                    }
+                }, 
+                "market": "Complete", 
+                "max_price": 0.0, 
+                "min_price": 0.0, 
+                "misc_files_size": 0, 
+                "name": "USGS DRG Topo Felton, CA", 
+                "north": 37.1316377542, 
+                "number_of_layers": 1, 
+                "order_all_data_allowed?": true, 
+                "page_url": "https://market.weogeo.com/datasets/topo-usgs-drg-topo-felton-ca", 
+                "parents_count": 0, 
+                "permalink": "topo-usgs-drg-topo-felton-ca", 
+                "price_lut": null, 
+                "price_type": "FIXED", 
+                "projection": "albers_equal_area", 
+                "rating": 0.0, 
+                "royalty_model": "CREDITED", 
+                "scales": "11;12;13;14;15;16", 
+                "south": 36.9827297824, 
+                "spatial_resolution": 1.52811639316174, 
+                "spatial_resolution_in_meters": 1.52811639316174, 
+                "status": "Approved", 
+                "tile_file_format": "jpg", 
+                "tile_layer_type": "xyz", 
+                "tile_order": "yx", 
+                "token": "f1bca22c-013e-4e57-a78b-f9bbb3a918e8", 
+                "transaction_fee_rate": 0.1, 
+                "uploaded_at": "2012/03/03 18:46:41 +0000", 
+                "user": {
+                    "rating": 4.6, 
+                    "username": null, 
+                    "votes": 29
+                }, 
+                "votes": 0, 
+                "weofile_url": "https://market.weogeo.com/datasets/topo-usgs-drg-topo-felton-ca.weo", 
+                "west": -122.1359901453, 
+                "x_conv": null, 
+                "y_conv": null
+            }, 
+            {
+                "ancestors_price": 0.0, 
+                "api_url": "https://market.weogeo.com/datasets/topo-usgs-drg-topo-davenport-ca.json", 
+                "boundaries": {
+                    "baseimage": {
+                        "east": -13591525.3492, 
+                        "line_pixel_size": "-80.9311640625", 
+                        "north": 4457509.571, 
+                        "number_of_lines": "256", 
+                        "number_of_samples": "256", 
+                        "proj4": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs", 
+                        "projection_datum": "spherical_mercator", 
+                        "sample_pixel_size": "80.9764164063", 
+                        "south": 4436791.193, 
+                        "west": -13612255.3118
+                    }, 
+                    "data": {
+                        "east": -188058.723957423, 
+                        "line_pixel_size": "1.52732998594324", 
+                        "north": -96397.2357568976, 
+                        "number_of_lines": "10624", 
+                        "number_of_samples": "8133", 
+                        "proj4": "+proj=aea +lat_1=34 +lat_2=40.5 +lat_0=0 +lon_0=-120 +x_0=0 +y_0=-4000000 +ellps=clrk66 +datum=NAD27 +units=m +no_defs ", 
+                        "projection_datum": "albers_equal_area-nad27", 
+                        "sample_pixel_size": "1.52732998594324", 
+                        "south": -112623.589527559, 
+                        "west": -200480.4987331
+                    }, 
+                    "geo": {
+                        "east": -122.1169049158, 
+                        "line_pixel_size": "-0.0000151901", 
+                        "north": 37.1318583589, 
+                        "number_of_lines": "9777", 
+                        "number_of_samples": "9484", 
+                        "proj4": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs ", 
+                        "projection_datum": "geo-wgs84", 
+                        "sample_pixel_size": "0.0000151901", 
+                        "south": 36.9833451522, 
+                        "west": -122.2609674352
+                    }, 
+                    "preview": {
+                        "east": -188058.7239577749, 
+                        "line_pixel_size": "-1.5273299859", 
+                        "north": -96397.2357568976, 
+                        "number_of_lines": "10624", 
+                        "number_of_samples": "8133", 
+                        "proj4": "+proj=aea +lat_1=34 +lat_2=40.5 +lat_0=0 +lon_0=-120 +x_0=0 +y_0=-4000000 +ellps=clrk66 +datum=NAD27 +units=m +no_defs ", 
+                        "projection_datum": "albers_equal_area-nad27", 
+                        "sample_pixel_size": "1.5273299859", 
+                        "south": -112623.5895270992, 
+                        "west": -200480.4987330996
+                    }, 
+                    "tiles": {
+                        "east": -13593872.353, 
+                        "line_pixel_size": "-1.9158847279", 
+                        "north": 4457509.571, 
+                        "number_of_lines": "10814", 
+                        "number_of_samples": "8370", 
+                        "proj4": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs", 
+                        "projection_datum": "spherical_mercator", 
+                        "sample_pixel_size": "1.9158847279", 
+                        "south": 4436791.193, 
+                        "west": -13609908.308
+                    }
+                }, 
+                "center_lat": 37.05760175555, 
+                "center_long": -122.1889361755, 
+                "children_count": 0, 
+                "content_license": {
+                    "name": "WeoGeo Content License 1.0", 
+                    "url": "http://licenses.weogeo.com/licenses/1/original.html?1269973409"
+                }, 
+                "content_license_id": 1, 
+                "data_created_on": null, 
+                "data_files_size": 16217595, 
+                "data_type": "RASTER", 
+                "datum": "NAD27", 
+                "description": "\n<p>&nbsp;</p>\n<p><a title=\"USGS homepage\" href=\"http://www.usgs.gov/\" target=\"_blank\"><img src=\"http://dv3.weogeo.info/dataset_tiles/e64ca07f-fc97-40a6-a3e5-f60483982356/public/USGS_logo.png\" alt=\"\" width=\"120\" height=\"44\" /></a></p>\n<p>&nbsp;</p>\n<p>United States Geological Survey (USGS) Topographic maps detail the shape and elevation of the land with contour lines and display prominent natural and cultural features. The original, paper topo maps produced by the USGS have been scanned and georeferenced to create digital raster graphics (DRGs) for use with geospatial programs.</p>\n<p>&nbsp;</p>\n<p><em>Example Topo detail for illustrative purposes and may not represent this particular listing:</em></p>\n<p><img src=\"http://dv3.weogeo.info/dataset_tiles/e64ca07f-fc97-40a6-a3e5-f60483982356/public/topo-24k.png\" alt=\"USGS Topo Example\" width=\"454\" height=\"236\" /></p>\n<p>&nbsp;</p>\n<table border=\"1\" frame=\"void\">\n<tbody>\n<tr>\n<td>Name:</td>\n<td>&nbsp; &nbsp; &nbsp;Davenport</td>\n</tr>\n<tr>\n<td>Series:</td>\n<td>&nbsp; &nbsp; &nbsp;7.5 minute</td>\n</tr>\n<tr>\n<td>Scale:</td>\n<td>&nbsp; &nbsp; &nbsp;1:24,000 (1 cm = 240 m)</td>\n</tr>\n<tr>\n<td>State(s):</td>\n<td>&nbsp; &nbsp; &nbsp;California</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>\n<p>Additional topos for this series and scale can be found here:&nbsp;</p>\n<p><a href=\"http://market.weogeo.com/datasets/topo-usgs-drg-topo-24k-master.html\">USGS DRG Topo 24k Master</a>.</p>\n<p>&nbsp;</p>\n<p>For more information, visit <a href=\"http://topomaps.usgs.gov/index.html\">USGS Topographic Maps</a>.</p>\n", 
+                "east": -122.1169049158, 
+                "events_api_url": "https://market.weogeo.com/datasets/3e6165d2-8009-42c5-a74d-615929d5db49/events.json", 
+                "events_api_url_template": "https://market.weogeo.com/datasets/3e6165d2-8009-42c5-a74d-615929d5db49/events/${id}.json", 
+                "file_format": "GeoTIFF", 
+                "from_appliance?": false, 
+                "group_ids": [], 
+                "hosted": true, 
+                "is_library_transfer": false, 
+                "kml_file_size": 1641397, 
+                "large_job_size_threshold": null, 
+                "layer_contributions": null, 
+                "layers": [
+                    "Layer_1"
+                ], 
+                "library": {
+                    "csw_url": "http://topo-market.weogeo.com/csw", 
+                    "dataset_api_url_template": "https://topo.weogeo.com/datasets/${id}.json", 
+                    "dataset_page_url_template": "https://topo.weogeo.com/datasets/${id}", 
+                    "datasets_api_url": "https://topo.weogeo.com/datasets.json", 
+                    "id": 38, 
+                    "job_url_template": "https://topo.weogeo.com/jobs/${id}.json", 
+                    "name": "USGS DRG/Topo", 
+                    "private_store_url": "http://topo-market.weogeo.com/", 
+                    "subdomain": "topo", 
+                    "tier_name": "enterprise"
+                }, 
+                "listing_status": {
+                    "library": {
+                        "ready": true, 
+                        "status_causes": []
+                    }, 
+                    "market": {
+                        "ready": true, 
+                        "status_causes": []
+                    }, 
+                    "process": {
+                        "ready": true, 
+                        "status_causes": []
+                    }
+                }, 
+                "market": "Complete", 
+                "max_price": 0.0, 
+                "min_price": 0.0, 
+                "misc_files_size": 0, 
+                "name": "USGS DRG Topo Davenport, CA", 
+                "north": 37.1318583589, 
+                "number_of_layers": 1, 
+                "order_all_data_allowed?": true, 
+                "page_url": "https://market.weogeo.com/datasets/topo-usgs-drg-topo-davenport-ca", 
+                "parents_count": 0, 
+                "permalink": "topo-usgs-drg-topo-davenport-ca", 
+                "price_lut": null, 
+                "price_type": "FIXED", 
+                "projection": "albers_equal_area", 
+                "rating": 0.0, 
+                "royalty_model": "CREDITED", 
+                "scales": "11;12;13;14;15;16", 
+                "south": 36.9833451522, 
+                "spatial_resolution": 1.52732998594324, 
+                "spatial_resolution_in_meters": 1.52732998594324, 
+                "status": "Approved", 
+                "tile_file_format": "jpg", 
+                "tile_layer_type": "xyz", 
+                "tile_order": "yx", 
+                "token": "3e6165d2-8009-42c5-a74d-615929d5db49", 
+                "transaction_fee_rate": 0.1, 
+                "uploaded_at": "2012/03/03 04:03:11 +0000", 
+                "user": {
+                    "rating": 4.6, 
+                    "username": null, 
+                    "votes": 29
+                }, 
+                "votes": 0, 
+                "weofile_url": "https://market.weogeo.com/datasets/topo-usgs-drg-topo-davenport-ca.weo", 
+                "west": -122.2609674352, 
+                "x_conv": null, 
+                "y_conv": null
+            }, 
+            {
+                "ancestors_price": 0.0, 
+                "api_url": "https://market.weogeo.com/datasets/tiger_san_mateo_county_california.json", 
+                "boundaries": {
+                    "baseimage": {
+                        "east": -122.0075385, 
+                        "north": 37.708431, 
+                        "proj4": "+proj=latlong +datum=WGS84", 
+                        "projection_datum": "geo-wgs84", 
+                        "south": 37.053858, 
+                        "west": -122.6621115
+                    }, 
+                    "data": {
+                        "projection_datum": "geo-nad83"
+                    }, 
+                    "geo": {
+                        "east": -122.081473, 
+                        "north": 37.708431, 
+                        "proj4": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs ", 
+                        "projection_datum": "geo-wgs84", 
+                        "south": 37.053858, 
+                        "west": -122.588177
+                    }, 
+                    "preview": {
+                        "projection_datum": "Unknown-UNKNOWN"
+                    }, 
+                    "tiles": {
+                        "east": -122.081473, 
+                        "north": 37.708431, 
+                        "proj4": "+proj=latlong +datum=WGS84", 
+                        "projection_datum": "geo-wgs84", 
+                        "south": 37.053858, 
+                        "west": -122.588177
+                    }
+                }, 
+                "center_lat": 37.3811445, 
+                "center_long": -122.334825, 
+                "children_count": 0, 
+                "content_license": {
+                    "name": "WeoGeo Content License 1.0", 
+                    "url": "http://licenses.weogeo.com/licenses/1/original.html?1269973409"
+                }, 
+                "content_license_id": 1, 
+                "data_created_on": null, 
+                "data_files_size": 49892032, 
+                "data_type": "VECTOR", 
+                "datum": "NAD83", 
+                "description": "<p><img src=\"http://dv3.weogeo.info/dataset_tiles/448a6804-6813-4c0c-a0d7-499877a952d2/public/US-Census-TIGERLogo.png\" alt=\"\" /> <br /><br /><span style=\"font-size: large;\"><strong>TIGER/Line 2011 Data for San Mateo County, California<br /></strong></span></p><hr /><p><em>This listing is for <strong>COUNTY</strong> based TIGER/Line 2011 shapefiles</em>.</p><p>&nbsp;</p><p>San Mateo County, California</p><p>FIPS Code: 06081</p><p><br />To see the differences between National, State, &amp; County based TIGER/Line data, visit this <a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/availability.html\">support table</a>.</p><hr /><p><a href=\"http://www.census.gov/geo/www/tiger/\">TIGER/Line</a> is a format used by the <a href=\"http://www.census.gov\">United States Census Bureau</a> to describe land attributes such as roads, buildings, rivers, and lakes, as well as areas such as census tracts. TIGER/Line was developed to support and improve the Bureau's process of taking the Decennial Census.</p><p>&nbsp;</p><p><img src=\"http://dv3.weogeo.info/dataset_tiles/448a6804-6813-4c0c-a0d7-499877a952d2/public/US-Census-TIGER-map-demo_1.png\" alt=\"\" /></p><p>&nbsp;</p><p>The TIGER files <strong>do not</strong> contain Census demographic data, but rather mapping data only. GIS can be used to merge Census demographics or other data sources with the TIGER files to create maps and conduct analysis.</p><p>&nbsp;</p><p><img src=\"http://dv3.weogeo.info/dataset_tiles/448a6804-6813-4c0c-a0d7-499877a952d2/public/US-Census-TIGER-map-demo_2.png\" alt=\"\" /></p><p>&nbsp;</p><p>To minimize the number of individual files, much information is stored in each file set. In order to access it, utilize mapping or GIS software. For example, the <strong> <em>Layer: All Lines</em> </strong> shapefile contains the geometry and attributes of every topological edge. In order to distinguish and symbolize specific types of edges (e.g. roads edges, hyrdrologic edges, county edges, etc.) the associated MTFCC code should be used to filter the attributes. A list of MTFCC codes can be found in <a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/availability.html\">Appendix F</a>.<br /> <br /> <strong>Folder Structure:</strong> <br /> TIGER/Line 2011 is delivered in folder structure by <strong>TIGER2011 &gt; Layer &gt; Files</strong> <br /> <br /> <strong>File Naming Convention:</strong> <br /> tl_2011_[extent]_[layer].[ext]<br /> <em>Where</em> tl = TIGER/Line<br /> <em>Where</em> [extent] = parent geography entity ID code<br /> <em>Where</em> [layer] = layer tag (i.e. edges, faces, etc.)<br /> <em>Where</em> [ext] = File extension<br /> <br /> The <strong> <em>entity ID code</em> </strong> refers to a data file's geographic extent. State files have a 2 digit entity ID (ex: /41_Oregon) while county data uses a 5 digit entity ID (ex: /41051_Multnomah_County). These numbers refer to a location's FIPS code. So all data files associated with Multnomah County will have entity ID 41051 in their file name.<br /><br /></p><p>This TIGER/Line Listing on WeoGeo contains all the 2011 TIGER/Line Shapefiles for every county in the USA. Unlike the US Census website, county-by-county download is not required. Multiple counties or even multiple states can be ordered with a single request. This greatly simplifies the download process for Areas of Interest that cross political boundaries.</p><p>&nbsp;</p><p>This TIGER/Line 2011 dataset contains the following layers:</p><table><tbody><tr><td><strong>addrfeat&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td>Address Range-Feature</td></tr><tr><td><strong>arealm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td>Area Landmark</td></tr><tr><td><strong>areawater&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td>Area Hydrography</td></tr><tr><td><strong>edges&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td>All Lines</td></tr><tr><td><strong>faces&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td>Topological Faces (Polygons with all Geocodes)</td></tr><tr><td><strong>linearwater&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td>Linear Hydrography</td></tr><tr><td><strong>pointlm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td>Point Landmark</td></tr><tr><td><strong>roads&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td>All Roads</td></tr><tr><td><strong>addrfn&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td>Address Range-Feature Name Relationship File</td></tr><tr><td><strong>facesah&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td>Faces-Area Hydrography Relationship File</td></tr></tbody></table><p>&nbsp;</p><p>Further information about the specifics of these layers can be found in the <a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/documentation.html\">online technical documentation</a>.</p><table border=\"0\"><tbody><tr><td><strong>Chapter 1 <br /></strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_Ch1.pdf.pdf\">Introduction</a></td></tr><tr><td><strong>Chapter 2</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_Ch2.pdf\">About the 2011 Census TIGER/Line Shapefiles</a></td></tr><tr><td><strong>Chapter 3</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_Ch3.pdf\">Structure &amp; Format</a></td></tr><tr><td><strong>Chapter 4</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_Ch4.pdf\">Shapefile Attribute Terms GlossaryGeographic Concept Overview</a></td></tr><tr><td><strong>Chapter 5</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_Ch5.pdf\">Geographic Shapefile Concepts Overview</a></td></tr><tr><td><strong>Chapter&nbsp;6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_Ch6.pdf\">Relationship File Concept Overview</a></td></tr><tr><td><strong>Appendix A</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_A.pdf\">Complete Record Layout</a></td></tr><tr><td><strong>Appendix B<br /></strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_B.pdf\">Pseudo-School Districts</a></td></tr><tr><td><strong>Appendix C </strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_C.pdf\">Feature Name Directionals</a></td></tr><tr><td><strong>Appendix D</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_D.pdf\">Feature Name Qualifiers</a></td></tr><tr><td><strong>Appendix E</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_E.pdf\">Feature Name Types</a></td></tr><tr><td><strong>Appendix F</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_F.pdf\">MAF/TIGER Feature Class Code (MTFCC) Definitions</a></td></tr></tbody></table>", 
+                "east": -122.081473, 
+                "events_api_url": "https://market.weogeo.com/datasets/ece7276d-999c-e754-83f3-5109cae27f68/events.json", 
+                "events_api_url_template": "https://market.weogeo.com/datasets/ece7276d-999c-e754-83f3-5109cae27f68/events/${id}.json", 
+                "file_format": "shape", 
+                "from_appliance?": false, 
+                "group_ids": [], 
+                "hosted": true, 
+                "is_library_transfer": false, 
+                "kml_file_size": 235680, 
+                "large_job_size_threshold": null, 
+                "layer_contributions": null, 
+                "layers": [
+                    "Address Range-Feature", 
+                    "Area Landmark", 
+                    "Area Hydrography", 
+                    "All Lines", 
+                    "Topological Faces (Polygons with all Geocodes)", 
+                    "Linear Hydrography", 
+                    "Point Landmark", 
+                    "All Roads", 
+                    "Address Range-Feature Name Relationship File", 
+                    "Faces-Area Hydrography Relationship File"
+                ], 
+                "library": {
+                    "csw_url": "http://tiger-market.weogeo.com/csw", 
+                    "dataset_api_url_template": "https://tiger.weogeo.com/datasets/${id}.json", 
+                    "dataset_page_url_template": "https://tiger.weogeo.com/datasets/${id}", 
+                    "datasets_api_url": "https://tiger.weogeo.com/datasets.json", 
+                    "id": 39, 
+                    "job_url_template": "https://tiger.weogeo.com/jobs/${id}.json", 
+                    "name": "TIGER", 
+                    "private_store_url": "http://tiger-market.weogeo.com/", 
+                    "subdomain": "tiger", 
+                    "tier_name": "enterprise"
+                }, 
+                "listing_status": {
+                    "library": {
+                        "ready": true, 
+                        "status_causes": []
+                    }, 
+                    "market": {
+                        "ready": true, 
+                        "status_causes": []
+                    }, 
+                    "process": {
+                        "ready": true, 
+                        "status_causes": []
+                    }
+                }, 
+                "market": "Complete", 
+                "max_price": 0.0, 
+                "min_price": 0.0, 
+                "misc_files_size": 0, 
+                "name": "TIGER/Line - San Mateo County, California", 
+                "north": 37.708431, 
+                "number_of_layers": 10, 
+                "order_all_data_allowed?": true, 
+                "page_url": "https://market.weogeo.com/datasets/tiger_san_mateo_county_california", 
+                "parents_count": 0, 
+                "permalink": "tiger_san_mateo_county_california", 
+                "price_lut": null, 
+                "price_type": "FIXED", 
+                "projection": "geo", 
+                "rating": 0.0, 
+                "royalty_model": "CREDITED", 
+                "scales": "8;9;10;11;12;13", 
+                "south": 37.053858, 
+                "spatial_resolution": 0, 
+                "spatial_resolution_in_meters": 0.0, 
+                "status": "Approved", 
+                "tile_file_format": "png", 
+                "tile_layer_type": "xyz", 
+                "tile_order": "yx", 
+                "token": "ece7276d-999c-e754-83f3-5109cae27f68", 
+                "transaction_fee_rate": 0.1, 
+                "uploaded_at": "2011/04/14 17:59:38 +0000", 
+                "user": {
+                    "rating": 5.0, 
+                    "username": null, 
+                    "votes": 2
+                }, 
+                "votes": 0, 
+                "weofile_url": "https://market.weogeo.com/datasets/tiger_san_mateo_county_california.weo", 
+                "west": -122.588177, 
+                "x_conv": null, 
+                "y_conv": null
+            }, 
+            {
+                "ancestors_price": 0.0, 
+                "api_url": "https://market.weogeo.com/datasets/tiger_santa_cruz_county_california.json", 
+                "boundaries": {
+                    "baseimage": {
+                        "east": -121.581154, 
+                        "north": 37.4210915, 
+                        "proj4": "+proj=latlong +datum=WGS84", 
+                        "projection_datum": "geo-wgs84", 
+                        "south": 36.6845635, 
+                        "west": -122.317682
+                    }, 
+                    "data": {
+                        "projection_datum": "geo-nad83"
+                    }, 
+                    "geo": {
+                        "east": -121.581154, 
+                        "north": 37.286055, 
+                        "proj4": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs ", 
+                        "projection_datum": "geo-wgs84", 
+                        "south": 36.8196, 
+                        "west": -122.317682
+                    }, 
+                    "preview": {
+                        "projection_datum": "Unknown-UNKNOWN"
+                    }, 
+                    "tiles": {
+                        "east": -121.581154, 
+                        "north": 37.286055, 
+                        "proj4": "+proj=latlong +datum=WGS84", 
+                        "projection_datum": "geo-wgs84", 
+                        "south": 36.8196, 
+                        "west": -122.317682
+                    }
+                }, 
+                "center_lat": 37.0528275, 
+                "center_long": -121.949418, 
+                "children_count": 0, 
+                "content_license": {
+                    "name": "WeoGeo Content License 1.0", 
+                    "url": "http://licenses.weogeo.com/licenses/1/original.html?1269973409"
+                }, 
+                "content_license_id": 1, 
+                "data_created_on": null, 
+                "data_files_size": 41433454, 
+                "data_type": "VECTOR", 
+                "datum": "NAD83", 
+                "description": "<p><img src=\"http://dv3.weogeo.info/dataset_tiles/448a6804-6813-4c0c-a0d7-499877a952d2/public/US-Census-TIGERLogo.png\" alt=\"\" /> <br /><br /><span style=\"font-size: large;\"><strong>TIGER/Line 2011 Data for Santa Cruz County, California<br /></strong></span></p><hr /><p><em>This listing is for <strong>COUNTY</strong> based TIGER/Line 2011 shapefiles</em>.</p><p>&nbsp;</p><p>Santa Cruz County, California</p><p>FIPS Code: 06087</p><p><br />To see the differences between National, State, &amp; County based TIGER/Line data, visit this <a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/availability.html\">support table</a>.</p><hr /><p><a href=\"http://www.census.gov/geo/www/tiger/\">TIGER/Line</a> is a format used by the <a href=\"http://www.census.gov\">United States Census Bureau</a> to describe land attributes such as roads, buildings, rivers, and lakes, as well as areas such as census tracts. TIGER/Line was developed to support and improve the Bureau's process of taking the Decennial Census.</p><p>&nbsp;</p><p><img src=\"http://dv3.weogeo.info/dataset_tiles/448a6804-6813-4c0c-a0d7-499877a952d2/public/US-Census-TIGER-map-demo_1.png\" alt=\"\" /></p><p>&nbsp;</p><p>The TIGER files <strong>do not</strong> contain Census demographic data, but rather mapping data only. GIS can be used to merge Census demographics or other data sources with the TIGER files to create maps and conduct analysis.</p><p>&nbsp;</p><p><img src=\"http://dv3.weogeo.info/dataset_tiles/448a6804-6813-4c0c-a0d7-499877a952d2/public/US-Census-TIGER-map-demo_2.png\" alt=\"\" /></p><p>&nbsp;</p><p>To minimize the number of individual files, much information is stored in each file set. In order to access it, utilize mapping or GIS software. For example, the <strong> <em>Layer: All Lines</em> </strong> shapefile contains the geometry and attributes of every topological edge. In order to distinguish and symbolize specific types of edges (e.g. roads edges, hyrdrologic edges, county edges, etc.) the associated MTFCC code should be used to filter the attributes. A list of MTFCC codes can be found in <a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/availability.html\">Appendix F</a>.<br /> <br /> <strong>Folder Structure:</strong> <br /> TIGER/Line 2011 is delivered in folder structure by <strong>TIGER2011 &gt; Layer &gt; Files</strong> <br /> <br /> <strong>File Naming Convention:</strong> <br /> tl_2011_[extent]_[layer].[ext]<br /> <em>Where</em> tl = TIGER/Line<br /> <em>Where</em> [extent] = parent geography entity ID code<br /> <em>Where</em> [layer] = layer tag (i.e. edges, faces, etc.)<br /> <em>Where</em> [ext] = File extension<br /> <br /> The <strong> <em>entity ID code</em> </strong> refers to a data file's geographic extent. State files have a 2 digit entity ID (ex: /41_Oregon) while county data uses a 5 digit entity ID (ex: /41051_Multnomah_County). These numbers refer to a location's FIPS code. So all data files associated with Multnomah County will have entity ID 41051 in their file name.<br /><br /></p><p>This TIGER/Line Listing on WeoGeo contains all the 2011 TIGER/Line Shapefiles for every county in the USA. Unlike the US Census website, county-by-county download is not required. Multiple counties or even multiple states can be ordered with a single request. This greatly simplifies the download process for Areas of Interest that cross political boundaries.</p><p>&nbsp;</p><p>This TIGER/Line 2011 dataset contains the following layers:</p><table><tbody><tr><td><strong>addrfeat&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td>Address Range-Feature</td></tr><tr><td><strong>arealm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td>Area Landmark</td></tr><tr><td><strong>areawater&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td>Area Hydrography</td></tr><tr><td><strong>edges&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td>All Lines</td></tr><tr><td><strong>faces&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td>Topological Faces (Polygons with all Geocodes)</td></tr><tr><td><strong>linearwater&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td>Linear Hydrography</td></tr><tr><td><strong>pointlm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td>Point Landmark</td></tr><tr><td><strong>roads&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td>All Roads</td></tr><tr><td><strong>addrfn&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td>Address Range-Feature Name Relationship File</td></tr><tr><td><strong>facesah&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td>Faces-Area Hydrography Relationship File</td></tr></tbody></table><p>&nbsp;</p><p>Further information about the specifics of these layers can be found in the <a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/documentation.html\">online technical documentation</a>.</p><table border=\"0\"><tbody><tr><td><strong>Chapter 1 <br /></strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_Ch1.pdf.pdf\">Introduction</a></td></tr><tr><td><strong>Chapter 2</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_Ch2.pdf\">About the 2011 Census TIGER/Line Shapefiles</a></td></tr><tr><td><strong>Chapter 3</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_Ch3.pdf\">Structure &amp; Format</a></td></tr><tr><td><strong>Chapter 4</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_Ch4.pdf\">Shapefile Attribute Terms GlossaryGeographic Concept Overview</a></td></tr><tr><td><strong>Chapter 5</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_Ch5.pdf\">Geographic Shapefile Concepts Overview</a></td></tr><tr><td><strong>Chapter&nbsp;6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_Ch6.pdf\">Relationship File Concept Overview</a></td></tr><tr><td><strong>Appendix A</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_A.pdf\">Complete Record Layout</a></td></tr><tr><td><strong>Appendix B<br /></strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_B.pdf\">Pseudo-School Districts</a></td></tr><tr><td><strong>Appendix C </strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_C.pdf\">Feature Name Directionals</a></td></tr><tr><td><strong>Appendix D</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_D.pdf\">Feature Name Qualifiers</a></td></tr><tr><td><strong>Appendix E</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_E.pdf\">Feature Name Types</a></td></tr><tr><td><strong>Appendix F</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_F.pdf\">MAF/TIGER Feature Class Code (MTFCC) Definitions</a></td></tr></tbody></table>", 
+                "east": -121.581154, 
+                "events_api_url": "https://market.weogeo.com/datasets/63472b72-0f0d-2554-8120-67b445942ff7/events.json", 
+                "events_api_url_template": "https://market.weogeo.com/datasets/63472b72-0f0d-2554-8120-67b445942ff7/events/${id}.json", 
+                "file_format": "shape", 
+                "from_appliance?": false, 
+                "group_ids": [], 
+                "hosted": true, 
+                "is_library_transfer": false, 
+                "kml_file_size": 65561, 
+                "large_job_size_threshold": null, 
+                "layer_contributions": null, 
+                "layers": [
+                    "Address Range-Feature", 
+                    "Area Landmark", 
+                    "Area Hydrography", 
+                    "All Lines", 
+                    "Topological Faces (Polygons with all Geocodes)", 
+                    "Linear Hydrography", 
+                    "Point Landmark", 
+                    "All Roads", 
+                    "Address Range-Feature Name Relationship File", 
+                    "Faces-Area Hydrography Relationship File"
+                ], 
+                "library": {
+                    "csw_url": "http://tiger-market.weogeo.com/csw", 
+                    "dataset_api_url_template": "https://tiger.weogeo.com/datasets/${id}.json", 
+                    "dataset_page_url_template": "https://tiger.weogeo.com/datasets/${id}", 
+                    "datasets_api_url": "https://tiger.weogeo.com/datasets.json", 
+                    "id": 39, 
+                    "job_url_template": "https://tiger.weogeo.com/jobs/${id}.json", 
+                    "name": "TIGER", 
+                    "private_store_url": "http://tiger-market.weogeo.com/", 
+                    "subdomain": "tiger", 
+                    "tier_name": "enterprise"
+                }, 
+                "listing_status": {
+                    "library": {
+                        "ready": true, 
+                        "status_causes": []
+                    }, 
+                    "market": {
+                        "ready": true, 
+                        "status_causes": []
+                    }, 
+                    "process": {
+                        "ready": true, 
+                        "status_causes": []
+                    }
+                }, 
+                "market": "Complete", 
+                "max_price": 0.0, 
+                "min_price": 0.0, 
+                "misc_files_size": 0, 
+                "name": "TIGER/Line - Santa Cruz County, California", 
+                "north": 37.286055, 
+                "number_of_layers": 10, 
+                "order_all_data_allowed?": true, 
+                "page_url": "https://market.weogeo.com/datasets/tiger_santa_cruz_county_california", 
+                "parents_count": 0, 
+                "permalink": "tiger_santa_cruz_county_california", 
+                "price_lut": null, 
+                "price_type": "FIXED", 
+                "projection": "geo", 
+                "rating": 0.0, 
+                "royalty_model": "CREDITED", 
+                "scales": "7;8;9;10;11;12;13", 
+                "south": 36.8196, 
+                "spatial_resolution": 0, 
+                "spatial_resolution_in_meters": 0.0, 
+                "status": "Approved", 
+                "tile_file_format": "png", 
+                "tile_layer_type": "xyz", 
+                "tile_order": "yx", 
+                "token": "63472b72-0f0d-2554-8120-67b445942ff7", 
+                "transaction_fee_rate": 0.1, 
+                "uploaded_at": "2011/04/14 17:24:21 +0000", 
+                "user": {
+                    "rating": 5.0, 
+                    "username": null, 
+                    "votes": 2
+                }, 
+                "votes": 0, 
+                "weofile_url": "https://market.weogeo.com/datasets/tiger_santa_cruz_county_california.weo", 
+                "west": -122.317682, 
+                "x_conv": null, 
+                "y_conv": null
+            }, 
+            {
+                "ancestors_price": 0.0, 
+                "api_url": "https://market.weogeo.com/datasets/tiger_santa_clara_county_california.json", 
+                "boundaries": {
+                    "baseimage": {
+                        "east": -121.208178, 
+                        "north": 37.686044, 
+                        "proj4": "+proj=latlong +datum=WGS84", 
+                        "projection_datum": "geo-wgs84", 
+                        "south": 36.691569, 
+                        "west": -122.202653
+                    }, 
+                    "data": {
+                        "projection_datum": "geo-nad83"
+                    }, 
+                    "geo": {
+                        "east": -121.208178, 
+                        "north": 37.484637, 
+                        "proj4": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs ", 
+                        "projection_datum": "geo-wgs84", 
+                        "south": 36.892976, 
+                        "west": -122.202653
+                    }, 
+                    "preview": {
+                        "projection_datum": "Unknown-UNKNOWN"
+                    }, 
+                    "tiles": {
+                        "east": -121.208178, 
+                        "north": 37.484637, 
+                        "proj4": "+proj=latlong +datum=WGS84", 
+                        "projection_datum": "geo-wgs84", 
+                        "south": 36.892976, 
+                        "west": -122.202653
+                    }
+                }, 
+                "center_lat": 37.1888065, 
+                "center_long": -121.7054155, 
+                "children_count": 0, 
+                "content_license": {
+                    "name": "WeoGeo Content License 1.0", 
+                    "url": "http://licenses.weogeo.com/licenses/1/original.html?1269973409"
+                }, 
+                "content_license_id": 1, 
+                "data_created_on": null, 
+                "data_files_size": 126838405, 
+                "data_type": "VECTOR", 
+                "datum": "NAD83", 
+                "description": "<p><img src=\"http://dv3.weogeo.info/dataset_tiles/448a6804-6813-4c0c-a0d7-499877a952d2/public/US-Census-TIGERLogo.png\" alt=\"\" /> <br /><br /><span style=\"font-size: large;\"><strong>TIGER/Line 2011 Data for Santa Clara County, California<br /></strong></span></p><hr /><p><em>This listing is for <strong>COUNTY</strong> based TIGER/Line 2011 shapefiles</em>.</p><p>&nbsp;</p><p>Santa Clara County, California</p><p>FIPS Code: 06085</p><p><br />To see the differences between National, State, &amp; County based TIGER/Line data, visit this <a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/availability.html\">support table</a>.</p><hr /><p><a href=\"http://www.census.gov/geo/www/tiger/\">TIGER/Line</a> is a format used by the <a href=\"http://www.census.gov\">United States Census Bureau</a> to describe land attributes such as roads, buildings, rivers, and lakes, as well as areas such as census tracts. TIGER/Line was developed to support and improve the Bureau's process of taking the Decennial Census.</p><p>&nbsp;</p><p><img src=\"http://dv3.weogeo.info/dataset_tiles/448a6804-6813-4c0c-a0d7-499877a952d2/public/US-Census-TIGER-map-demo_1.png\" alt=\"\" /></p><p>&nbsp;</p><p>The TIGER files <strong>do not</strong> contain Census demographic data, but rather mapping data only. GIS can be used to merge Census demographics or other data sources with the TIGER files to create maps and conduct analysis.</p><p>&nbsp;</p><p><img src=\"http://dv3.weogeo.info/dataset_tiles/448a6804-6813-4c0c-a0d7-499877a952d2/public/US-Census-TIGER-map-demo_2.png\" alt=\"\" /></p><p>&nbsp;</p><p>To minimize the number of individual files, much information is stored in each file set. In order to access it, utilize mapping or GIS software. For example, the <strong> <em>Layer: All Lines</em> </strong> shapefile contains the geometry and attributes of every topological edge. In order to distinguish and symbolize specific types of edges (e.g. roads edges, hyrdrologic edges, county edges, etc.) the associated MTFCC code should be used to filter the attributes. A list of MTFCC codes can be found in <a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/availability.html\">Appendix F</a>.<br /> <br /> <strong>Folder Structure:</strong> <br /> TIGER/Line 2011 is delivered in folder structure by <strong>TIGER2011 &gt; Layer &gt; Files</strong> <br /> <br /> <strong>File Naming Convention:</strong> <br /> tl_2011_[extent]_[layer].[ext]<br /> <em>Where</em> tl = TIGER/Line<br /> <em>Where</em> [extent] = parent geography entity ID code<br /> <em>Where</em> [layer] = layer tag (i.e. edges, faces, etc.)<br /> <em>Where</em> [ext] = File extension<br /> <br /> The <strong> <em>entity ID code</em> </strong> refers to a data file's geographic extent. State files have a 2 digit entity ID (ex: /41_Oregon) while county data uses a 5 digit entity ID (ex: /41051_Multnomah_County). These numbers refer to a location's FIPS code. So all data files associated with Multnomah County will have entity ID 41051 in their file name.<br /><br /></p><p>This TIGER/Line Listing on WeoGeo contains all the 2011 TIGER/Line Shapefiles for every county in the USA. Unlike the US Census website, county-by-county download is not required. Multiple counties or even multiple states can be ordered with a single request. This greatly simplifies the download process for Areas of Interest that cross political boundaries.</p><p>&nbsp;</p><p>This TIGER/Line 2011 dataset contains the following layers:</p><table><tbody><tr><td><strong>addrfeat&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td>Address Range-Feature</td></tr><tr><td><strong>arealm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td>Area Landmark</td></tr><tr><td><strong>areawater&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td>Area Hydrography</td></tr><tr><td><strong>edges&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td>All Lines</td></tr><tr><td><strong>faces&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td>Topological Faces (Polygons with all Geocodes)</td></tr><tr><td><strong>linearwater&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td>Linear Hydrography</td></tr><tr><td><strong>pointlm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td>Point Landmark</td></tr><tr><td><strong>roads&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td>All Roads</td></tr><tr><td><strong>addrfn&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td>Address Range-Feature Name Relationship File</td></tr><tr><td><strong>facesah&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td>Faces-Area Hydrography Relationship File</td></tr></tbody></table><p>&nbsp;</p><p>Further information about the specifics of these layers can be found in the <a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/documentation.html\">online technical documentation</a>.</p><table border=\"0\"><tbody><tr><td><strong>Chapter 1 <br /></strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_Ch1.pdf.pdf\">Introduction</a></td></tr><tr><td><strong>Chapter 2</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_Ch2.pdf\">About the 2011 Census TIGER/Line Shapefiles</a></td></tr><tr><td><strong>Chapter 3</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_Ch3.pdf\">Structure &amp; Format</a></td></tr><tr><td><strong>Chapter 4</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_Ch4.pdf\">Shapefile Attribute Terms GlossaryGeographic Concept Overview</a></td></tr><tr><td><strong>Chapter 5</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_Ch5.pdf\">Geographic Shapefile Concepts Overview</a></td></tr><tr><td><strong>Chapter&nbsp;6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_Ch6.pdf\">Relationship File Concept Overview</a></td></tr><tr><td><strong>Appendix A</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_A.pdf\">Complete Record Layout</a></td></tr><tr><td><strong>Appendix B<br /></strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_B.pdf\">Pseudo-School Districts</a></td></tr><tr><td><strong>Appendix C </strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_C.pdf\">Feature Name Directionals</a></td></tr><tr><td><strong>Appendix D</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_D.pdf\">Feature Name Qualifiers</a></td></tr><tr><td><strong>Appendix E</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_E.pdf\">Feature Name Types</a></td></tr><tr><td><strong>Appendix F</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_F.pdf\">MAF/TIGER Feature Class Code (MTFCC) Definitions</a></td></tr></tbody></table>", 
+                "east": -121.208178, 
+                "events_api_url": "https://market.weogeo.com/datasets/75a35c57-7d85-5859-b3fb-abff013e16ef/events.json", 
+                "events_api_url_template": "https://market.weogeo.com/datasets/75a35c57-7d85-5859-b3fb-abff013e16ef/events/${id}.json", 
+                "file_format": "shape", 
+                "from_appliance?": false, 
+                "group_ids": [], 
+                "hosted": true, 
+                "is_library_transfer": false, 
+                "kml_file_size": 101398, 
+                "large_job_size_threshold": null, 
+                "layer_contributions": null, 
+                "layers": [
+                    "Address Range-Feature", 
+                    "Area Landmark", 
+                    "Area Hydrography", 
+                    "All Lines", 
+                    "Topological Faces (Polygons with all Geocodes)", 
+                    "Linear Hydrography", 
+                    "Point Landmark", 
+                    "All Roads", 
+                    "Address Range-Feature Name Relationship File", 
+                    "Faces-Area Hydrography Relationship File"
+                ], 
+                "library": {
+                    "csw_url": "http://tiger-market.weogeo.com/csw", 
+                    "dataset_api_url_template": "https://tiger.weogeo.com/datasets/${id}.json", 
+                    "dataset_page_url_template": "https://tiger.weogeo.com/datasets/${id}", 
+                    "datasets_api_url": "https://tiger.weogeo.com/datasets.json", 
+                    "id": 39, 
+                    "job_url_template": "https://tiger.weogeo.com/jobs/${id}.json", 
+                    "name": "TIGER", 
+                    "private_store_url": "http://tiger-market.weogeo.com/", 
+                    "subdomain": "tiger", 
+                    "tier_name": "enterprise"
+                }, 
+                "listing_status": {
+                    "library": {
+                        "ready": true, 
+                        "status_causes": []
+                    }, 
+                    "market": {
+                        "ready": true, 
+                        "status_causes": []
+                    }, 
+                    "process": {
+                        "ready": true, 
+                        "status_causes": []
+                    }
+                }, 
+                "market": "Complete", 
+                "max_price": 0.0, 
+                "min_price": 0.0, 
+                "misc_files_size": 0, 
+                "name": "TIGER/Line - Santa Clara County, California", 
+                "north": 37.484637, 
+                "number_of_layers": 10, 
+                "order_all_data_allowed?": true, 
+                "page_url": "https://market.weogeo.com/datasets/tiger_santa_clara_county_california", 
+                "parents_count": 0, 
+                "permalink": "tiger_santa_clara_county_california", 
+                "price_lut": null, 
+                "price_type": "FIXED", 
+                "projection": "geo", 
+                "rating": 0.0, 
+                "royalty_model": "CREDITED", 
+                "scales": "7;8;9;10;11;12;13", 
+                "south": 36.892976, 
+                "spatial_resolution": 0, 
+                "spatial_resolution_in_meters": 0.0, 
+                "status": "Approved", 
+                "tile_file_format": "png", 
+                "tile_layer_type": "xyz", 
+                "tile_order": "yx", 
+                "token": "75a35c57-7d85-5859-b3fb-abff013e16ef", 
+                "transaction_fee_rate": 0.1, 
+                "uploaded_at": "2011/04/14 17:28:19 +0000", 
+                "user": {
+                    "rating": 5.0, 
+                    "username": null, 
+                    "votes": 2
+                }, 
+                "votes": 0, 
+                "weofile_url": "https://market.weogeo.com/datasets/tiger_santa_clara_county_california.weo", 
+                "west": -122.202653, 
+                "x_conv": null, 
+                "y_conv": null
+            }, 
+            {
+                "ancestors_price": 0.0, 
+                "api_url": "https://market.weogeo.com/datasets/tiger-line-census-tracts-block-groups-blocks-california.json", 
+                "boundaries": {
+                    "baseimage": {
+                        "east": -114.131211, 
+                        "north": 42.4445705, 
+                        "proj4": "+proj=latlong +datum=WGS84", 
+                        "projection_datum": "geo-wgs84", 
+                        "south": 32.0937785, 
+                        "west": -124.482003
+                    }, 
+                    "data": {
+                        "projection_datum": "geo-nad83"
+                    }, 
+                    "geo": {
+                        "east": -114.131211, 
+                        "north": 42.009517, 
+                        "proj4": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs", 
+                        "projection_datum": "geo-wgs84", 
+                        "south": 32.528832, 
+                        "west": -124.482003
+                    }, 
+                    "preview": {
+                        "projection_datum": "Unknown-UNKNOWN"
+                    }, 
+                    "tiles": {
+                        "east": -114.131211, 
+                        "north": 42.009517, 
+                        "proj4": "+proj=latlong +datum=WGS84", 
+                        "projection_datum": "geo-wgs84", 
+                        "south": 32.528832, 
+                        "west": -124.482003
+                    }
+                }, 
+                "center_lat": 37.2691745, 
+                "center_long": -119.306607, 
+                "children_count": 0, 
+                "content_license": {
+                    "name": "WeoGeo Content License 1.0", 
+                    "url": "http://licenses.weogeo.com/licenses/1/original.html?1269973409"
+                }, 
+                "content_license_id": 1, 
+                "data_created_on": null, 
+                "data_files_size": 944640208, 
+                "data_type": "VECTOR", 
+                "datum": "NAD83", 
+                "description": "<p><img src=\"http://dv3.weogeo.info/dataset_tiles/448a6804-6813-4c0c-a0d7-499877a952d2/public/US-Census-TIGERLogo.png\" alt=\"\" />&nbsp;</p><p><strong style=\"font-size: large;\">TIGER/Line 2011 -- Census Tracts, Block Groups &amp; Blocks for California</strong></p><hr /><p>State: California</p><p>FIPS Code: 06</p><hr /><p>This is a US Census TIGER/Line 2011 listing comprised of census boundaries products. The customizable layers for California are as follows:</p><table><tbody><tr><td><strong>bg&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td>Census Block Group</td></tr><tr><td><strong>tabblock&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td>Census Block</td></tr><tr><td><strong>tract&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td>Census Tract</td></tr><tr><td><strong>tbg&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td>Tribal Block Group</td></tr><tr><td><strong>ttract&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td>Tribal Census Tract</td></tr></tbody></table><p>&nbsp;</p></div><hr /><p><strong>BLOCK GROUP</strong></p><p><br /> A block group (BG) is a cluster of census blocks having the same first digit of their four-digit identifying numbers within a census tract. For example, block group 3 (BG 3) within a census tract includes all blocks numbered from 3000 to 3999. BGs generally contain between 600 and 3,000 people, with an optimum size of 1,500 people. Most BGs were delineated by local participants as part of the U.S. Census Bureau's Participant Statistical Areas Program. The U.S. Census Bureau delineated BGs only where a local, state, or tribal government declined to participate or where the U.S. Census Bureau could not identify a potential local or tribal participant.<br /> <br />BGs never cross the boundaries of states, counties, or statistically equivalent entities, except for a BG delineated by American Indian tribal authorities, and then only when tabulated within the American Indian hierarchy. BGs never cross the boundaries of census tracts, but may cross the boundary of any other geographic entity required as a census block boundary (see CENSUS BLOCK).<br /> <br />In decennial census data tabulations, a BG may be split to present data for every unique combination of American Indian area, Alaska Native area, Hawaiian home land, congressional district, county subdivision, place, voting district, or other tabulation entity shown in the data products. For example, if BG 3 is partly in a city and partly outside the city, there are separate tabulated records for each portion of BG 3. BGs are used in tabulating data nationwide, as was done for the 1990 census, for all block-numbered areas in the 1980 census, and for selected areas in the 1970 census. For purposes of data presentation, BGs are a substitute for the enumeration districts (EDs) used for reporting data in many parts of the United States for the 1970 and 1980 censuses and in all areas before 1970. <br /> <br /> <strong>CENSUS BLOCK</strong> <br /> <br />Census blocks are areas bounded on all sides by visible features, such as streets, roads, streams, and railroad tracks, and by invisible boundaries, such as city, town, township, and county limits, property lines, and short, imaginary extensions of streets and roads. Generally, census blocks are small in area; for example, a block bounded by city streets. However, census blocks in remote areas may be large and irregular and contain many square miles. <br /> <br /> <strong>CENSUS TRACT</strong> <br /> <br />Census tracts are small, relatively permanent statistical subdivisions of a county delineated by local participants as part of the U.S. Census Bureau's Participant Statistical Areas Program. The U.S. Census Bureau delineated census tracts in situations where no local participant existed or where local or tribal governments declined to participate. The primary purpose of census tracts is to provide a stable set of geographic units for the presentation of decennial census data. This is the first decennial census for which the entire United States is covered by census tracts. For the 1990 census, some counties had census tracts and others had block numbering areas (BNAs). In preparation for Census 2000, all BNAs were replaced by census tracts, which may or may not cover the same areas. <br /> <br />Census tracts are identified by a four-digit basic number and may have a two-digit numeric suffix; for example, 6059.02. The decimal point separating the four-digit basic tract number from the two-digit suffix is shown in the printed reports and on census maps. In computer-readable files, the decimal point is implied. Many census tracts do not have a suffix; in such cases, the suffix field is either left blank or is zero-filled. Leading zeros in a census tract number (for example, 002502) are shown only in computer-readable files. Census tract suffixes may range from .01 to .98. For the 1990 census, the .99 suffix was reserved for census tracts/block numbering areas (BNAs) that contained only crews-of-vessels population. For Census 2000, the crews-of-vessels population is part of the related census tract.</p>", 
+                "east": -114.131211, 
+                "events_api_url": "https://market.weogeo.com/datasets/85da9c3d-a58b-9b5f-9c59-f324f4d4d186/events.json", 
+                "events_api_url_template": "https://market.weogeo.com/datasets/85da9c3d-a58b-9b5f-9c59-f324f4d4d186/events/${id}.json", 
+                "file_format": "shape", 
+                "from_appliance?": false, 
+                "group_ids": [], 
+                "hosted": true, 
+                "is_library_transfer": false, 
+                "kml_file_size": 293274, 
+                "large_job_size_threshold": null, 
+                "layer_contributions": null, 
+                "layers": [
+                    "Census Block Group", 
+                    "Census Block", 
+                    "Census Tract", 
+                    "Tribal Block Group", 
+                    "Tribal Census Tract"
+                ], 
+                "library": {
+                    "csw_url": "http://tiger-market.weogeo.com/csw", 
+                    "dataset_api_url_template": "https://tiger.weogeo.com/datasets/${id}.json", 
+                    "dataset_page_url_template": "https://tiger.weogeo.com/datasets/${id}", 
+                    "datasets_api_url": "https://tiger.weogeo.com/datasets.json", 
+                    "id": 39, 
+                    "job_url_template": "https://tiger.weogeo.com/jobs/${id}.json", 
+                    "name": "TIGER", 
+                    "private_store_url": "http://tiger-market.weogeo.com/", 
+                    "subdomain": "tiger", 
+                    "tier_name": "enterprise"
+                }, 
+                "listing_status": {
+                    "library": {
+                        "ready": true, 
+                        "status_causes": []
+                    }, 
+                    "market": {
+                        "ready": true, 
+                        "status_causes": []
+                    }, 
+                    "process": {
+                        "ready": true, 
+                        "status_causes": []
+                    }
+                }, 
+                "market": "Complete", 
+                "max_price": 0.0, 
+                "min_price": 0.0, 
+                "misc_files_size": 0, 
+                "name": "TIGER/Line 2011 Census Tracts, Block Groups & Blocks - California", 
+                "north": 42.009517, 
+                "number_of_layers": 5, 
+                "order_all_data_allowed?": true, 
+                "page_url": "https://market.weogeo.com/datasets/tiger-line-census-tracts-block-groups-blocks-california", 
+                "parents_count": 0, 
+                "permalink": "tiger-line-census-tracts-block-groups-blocks-california", 
+                "price_lut": [
+                    {
+                        "data": 0.0, 
+                        "price": 0
+                    }, 
+                    {
+                        "data": 0.72301917, 
+                        "price": 1.0
+                    }, 
+                    {
+                        "data": 0.93075479, 
+                        "price": 0.930754793
+                    }
+                ], 
+                "price_type": "VARIABLE", 
+                "projection": "geo", 
+                "rating": 0.0, 
+                "royalty_model": "CREDITED", 
+                "scales": "4;5;6;7;8;9;10;11;12", 
+                "south": 32.528832, 
+                "spatial_resolution": 0, 
+                "spatial_resolution_in_meters": 0.0, 
+                "status": "Approved", 
+                "tile_file_format": "png", 
+                "tile_layer_type": "xyz", 
+                "tile_order": "yx", 
+                "token": "85da9c3d-a58b-9b5f-9c59-f324f4d4d186", 
+                "transaction_fee_rate": 0.1, 
+                "uploaded_at": "2011/02/18 22:12:02 +0000", 
+                "user": {
+                    "rating": 5.0, 
+                    "username": null, 
+                    "votes": 2
+                }, 
+                "votes": 0, 
+                "weofile_url": "https://market.weogeo.com/datasets/tiger-line-census-tracts-block-groups-blocks-california.weo", 
+                "west": -124.482003, 
+                "x_conv": null, 
+                "y_conv": null
+            }, 
+            {
+                "ancestors_price": 0.0, 
+                "api_url": "https://market.weogeo.com/datasets/tiger_line_california_state_based_files.json", 
+                "boundaries": {
+                    "baseimage": {
+                        "east": -114.131211, 
+                        "north": 42.4445705, 
+                        "proj4": "+proj=latlong +datum=WGS84", 
+                        "projection_datum": "geo-wgs84", 
+                        "south": 32.0937785, 
+                        "west": -124.482003
+                    }, 
+                    "data": {
+                        "projection_datum": "geo-nad83"
+                    }, 
+                    "geo": {
+                        "east": -114.131211, 
+                        "north": 42.009517, 
+                        "proj4": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs ", 
+                        "projection_datum": "geo-wgs84", 
+                        "south": 32.528832, 
+                        "west": -124.482003
+                    }, 
+                    "preview": {
+                        "projection_datum": "Unknown-UNKNOWN"
+                    }, 
+                    "tiles": {
+                        "east": -114.131211, 
+                        "north": 42.009517, 
+                        "proj4": "+proj=latlong +datum=WGS84", 
+                        "projection_datum": "geo-wgs84", 
+                        "south": 32.528832, 
+                        "west": -124.482003
+                    }
+                }, 
+                "center_lat": 37.2691745, 
+                "center_long": -119.306607, 
+                "children_count": 0, 
+                "content_license": {
+                    "name": "WeoGeo Content License 1.0", 
+                    "url": "http://licenses.weogeo.com/licenses/1/original.html?1269973409"
+                }, 
+                "content_license_id": 1, 
+                "data_created_on": null, 
+                "data_files_size": 981676893, 
+                "data_type": "VECTOR", 
+                "datum": "NAD83", 
+                "description": "<p><img src=\"http://dv3.weogeo.info/dataset_tiles/448a6804-6813-4c0c-a0d7-499877a952d2/public/US-Census-TIGERLogo.png\" alt=\"\" /><br /><span style=\"font-size: large;\"><strong>TIGER/Line 2011 -- State Based Files for California</strong></span></p><hr /><p><em>This listing is for <strong>STATE</strong> based TIGER/Line 2011 data only.</em></p><p>&nbsp;</p><p>State: California</p><p>FIPS Code: 06</p><p><br />To see the differences between National, State, &amp; County based TIGER/Line data, visit this <a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/availability.html\">support table</a>.</p><hr /><p><a href=\"http://www.census.gov/geo/www/tiger/\">TIGER/Line</a> is a format used by the <a href=\"http://www.census.gov\">United States Census Bureau</a> to describe land attributes such as roads, buildings, rivers, and lakes, as well as areas such as census tracts. TIGER/Line was developed to support and improve the Bureau's process of taking the Decennial Census.</p><p>&nbsp;</p><p><img src=\"http://dv3.weogeo.info/dataset_tiles/448a6804-6813-4c0c-a0d7-499877a952d2/public/US-Census-TIGER-map-demo_1.png\" alt=\"\" /></p><p>&nbsp;</p><p>The TIGER files <strong>do not</strong> contain Census demographic data, but rather mapping data only. GIS can be used to merge Census demographics or other data sources with the TIGER files to create maps and conduct analysis.</p><p>&nbsp;</p><p><img src=\"http://dv3.weogeo.info/dataset_tiles/448a6804-6813-4c0c-a0d7-499877a952d2/public/US-Census-TIGER-map-demo_2.png\" alt=\"\" /></p><p><br /><strong>Folder Structure:</strong><br />TIGER/Line 2011 is delivered in folder structure by <strong>TIGER2011 &gt; Layer &gt; Files</strong><br /><br /><strong>File Naming Convention:</strong><br /> tl_2011_[extent]_[layer].[ext]<br /><em>Where</em> tl = TIGER/Line<br /><em>Where</em> [extent] = parent geography entity ID code<br /><em>Where</em> [layer] = layer tag (i.e. edges, faces, etc.)<br /><em>Where</em> [ext] = File extension<br /><br />The <strong><em>entity ID code</em></strong> refers to a data file's geographic extent. State files have a 2 digit entity ID (ex: /41_Oregon) while county data uses a 5 digit entity ID (ex: /41051_Multnomah_County). These numbers refer to a location's FIPS code. So all data files associated with Multnomah County will have entity ID 41051 in their file name.<br /><br /></p><p>This TIGER/Line Listing on WeoGeo contains all the 2011 TIGER/Line Shapefiles for every county in the USA. Unlike the US Census website, county-by-county download is not required. Multiple counties or even multiple states can be ordered with a single request. This greatly simplifies the download process for Areas of Interest that cross political boundaries.</p><p>&nbsp;</p><p>The TIGER/Line 2011 state based dataset for California includes the following layers:</p><table><tbody><tr><td><strong>cousub&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td>County Subdivision</td></tr><tr><td><strong>scsd&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td>School District--Secondary</td></tr><tr><td><strong>sldl&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td>State Legislative District--Lower Chamber</td></tr><tr><td><strong>sldu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td>State Legislative District--Upper Chamber</td></tr><tr><td><strong>tabblock&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td>Census Block</td></tr><tr><td><strong>tract&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td>Census Tract</td></tr><tr><td><strong>bg&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td>Census Block Group</td></tr><tr><td><strong>elsd&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td>School District--Elementary</td></tr><tr><td><strong>place&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td>Place</td></tr><tr><td><strong>prisecroads&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td>Primary and Secondary Roads</td></tr><tr><td><strong>unsd&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td>School District--Unified</td></tr></tbody></table><p>&nbsp;</p><p>Further information about the specifics of these layers can be found in the <a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/documentation.html\">online technical documentation</a>.</p><table><tbody><tr><td><strong>Chapter 1</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_Ch1.pdf.pdf\">Introduction</a></td></tr><tr><td><strong>Chapter 2</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_Ch2.pdf\">About the 2011 Census TIGER/Line Shapefiles</a></td></tr><tr><td><strong>Chapter 3</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_Ch3.pdf\">Structure &amp; Format</a></td></tr><tr><td><strong>Chapter 4</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_Ch4.pdf\">Shapefile Attribute Terms GlossaryGeographic Concept Overview</a></td></tr><tr><td><strong>Chapter 5</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_Ch5.pdf\">Geographic Shapefile Concepts Overview</a></td></tr><tr><td><strong>Chapter 6</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_Ch6.pdf\">Relationship File Concept Overview</a></td></tr><tr><td><strong>Appendix&nbsp;A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_A.pdf\">Complete Record Layout</a></td></tr><tr><td><strong>Appendix B</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_B.pdf\">Pseudo-School Districts</a></td></tr><tr><td><strong>Appendix C</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_C.pdf\">Feature Name Directionals</a></td></tr><tr><td><strong>Appendix D</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_D.pdf\">Feature Name Qualifiers</a></td></tr><tr><td><strong>Appendix E</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_E.pdf\">Feature Name Types</a></td></tr><tr><td><strong>Appendix F</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_F.pdf\">MAF/TIGER Feature Class Code (MTFCC) Definitions</a></td></tr></tbody></table>", 
+                "east": -114.131211, 
+                "events_api_url": "https://market.weogeo.com/datasets/1a9f8125-cd90-ef5a-9c16-c3329fb51497/events.json", 
+                "events_api_url_template": "https://market.weogeo.com/datasets/1a9f8125-cd90-ef5a-9c16-c3329fb51497/events/${id}.json", 
+                "file_format": "shape", 
+                "from_appliance?": false, 
+                "group_ids": [], 
+                "hosted": true, 
+                "is_library_transfer": false, 
+                "kml_file_size": 193954, 
+                "large_job_size_threshold": null, 
+                "layer_contributions": null, 
+                "layers": [
+                    "County Subdivision", 
+                    "School District--Secondary", 
+                    "State Legislative District--Lower Chamber", 
+                    "State Legislative District--Upper Chamber", 
+                    "Census Block", 
+                    "Census Tract", 
+                    "Census Block Group", 
+                    "School District--Elementary", 
+                    "Place", 
+                    "Primary and Secondary Roads", 
+                    "School District--Unified"
+                ], 
+                "library": {
+                    "csw_url": "http://tiger-market.weogeo.com/csw", 
+                    "dataset_api_url_template": "https://tiger.weogeo.com/datasets/${id}.json", 
+                    "dataset_page_url_template": "https://tiger.weogeo.com/datasets/${id}", 
+                    "datasets_api_url": "https://tiger.weogeo.com/datasets.json", 
+                    "id": 39, 
+                    "job_url_template": "https://tiger.weogeo.com/jobs/${id}.json", 
+                    "name": "TIGER", 
+                    "private_store_url": "http://tiger-market.weogeo.com/", 
+                    "subdomain": "tiger", 
+                    "tier_name": "enterprise"
+                }, 
+                "listing_status": {
+                    "library": {
+                        "ready": true, 
+                        "status_causes": []
+                    }, 
+                    "market": {
+                        "ready": true, 
+                        "status_causes": []
+                    }, 
+                    "process": {
+                        "ready": true, 
+                        "status_causes": []
+                    }
+                }, 
+                "market": "Complete", 
+                "max_price": 0.0, 
+                "min_price": 0.0, 
+                "misc_files_size": 0, 
+                "name": "TIGER/Line 2011: State Based Files - CALIFORNIA", 
+                "north": 42.009517, 
+                "number_of_layers": 11, 
+                "order_all_data_allowed?": true, 
+                "page_url": "https://market.weogeo.com/datasets/tiger_line_california_state_based_files", 
+                "parents_count": 0, 
+                "permalink": "tiger_line_california_state_based_files", 
+                "price_lut": [
+                    {
+                        "data": 0.0, 
+                        "price": 0
+                    }, 
+                    {
+                        "data": 0.59293071, 
+                        "price": 0.833055092
+                    }, 
+                    {
+                        "data": 0.79646536, 
+                        "price": 0.916527546
+                    }, 
+                    {
+                        "data": 0.89823268, 
+                        "price": 0.898232678
+                    }
+                ], 
+                "price_type": "VARIABLE", 
+                "projection": "geo", 
+                "rating": 0.0, 
+                "royalty_model": "CREDITED", 
+                "scales": "4;5;6;7;8;9;10;11;12;13", 
+                "south": 32.528832, 
+                "spatial_resolution": 0, 
+                "spatial_resolution_in_meters": 0.0, 
+                "status": "Approved", 
+                "tile_file_format": "png", 
+                "tile_layer_type": "xyz", 
+                "tile_order": "yx", 
+                "token": "1a9f8125-cd90-ef5a-9c16-c3329fb51497", 
+                "transaction_fee_rate": 0.1, 
+                "uploaded_at": "2011/04/11 16:30:19 +0000", 
+                "user": {
+                    "rating": 5.0, 
+                    "username": null, 
+                    "votes": 2
+                }, 
+                "votes": 0, 
+                "weofile_url": "https://market.weogeo.com/datasets/tiger_line_california_state_based_files.weo", 
+                "west": -124.482003, 
+                "x_conv": null, 
+                "y_conv": null
+            }, 
+            {
+                "ancestors_price": 0.0, 
+                "api_url": "https://market.weogeo.com/datasets/tiger-2010-california-zip-code-boundaries.json", 
+                "boundaries": {
+                    "baseimage": {
+                        "east": -114.1312109872, 
+                        "line_pixel_size": "-0.0404327812", 
+                        "north": 42.4445705, 
+                        "number_of_lines": "256", 
+                        "number_of_samples": "256", 
+                        "proj4": "+proj=latlong +datum=WGS84", 
+                        "projection_datum": "geo-wgs84", 
+                        "sample_pixel_size": "0.0404327813", 
+                        "south": 32.0937785128, 
+                        "west": -124.482003
+                    }, 
+                    "data": {
+                        "east": 180.0, 
+                        "line_pixel_size": "-1", 
+                        "north": 90.0, 
+                        "number_of_lines": "1", 
+                        "number_of_samples": "1", 
+                        "projection_datum": "geo-nad83", 
+                        "sample_pixel_size": "1", 
+                        "south": -90.0, 
+                        "west": -180.0
+                    }, 
+                    "geo": {
+                        "east": -114.131211, 
+                        "line_pixel_size": "-0.0009925278", 
+                        "north": 42.009517, 
+                        "number_of_lines": "9552", 
+                        "number_of_samples": "10429", 
+                        "proj4": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs ", 
+                        "projection_datum": "geo-wgs84", 
+                        "sample_pixel_size": "0.0009925278", 
+                        "south": 32.528832, 
+                        "west": -124.482003
+                    }, 
+                    "preview": {
+                        "projection_datum": "-UNKNOWN"
+                    }, 
+                    "tiles": {
+                        "east": -114.131211, 
+                        "line_pixel_size": "-0.0009480685", 
+                        "north": 42.009517, 
+                        "number_of_lines": "10000", 
+                        "number_of_samples": "10000", 
+                        "proj4": "+proj=latlong +datum=WGS84", 
+                        "projection_datum": "geo-wgs84", 
+                        "sample_pixel_size": "0.0010350792", 
+                        "south": 32.528832, 
+                        "west": -124.482003
+                    }
+                }, 
+                "center_lat": 37.2691745, 
+                "center_long": -119.306607, 
+                "children_count": 0, 
+                "content_license": {
+                    "name": "WeoGeo Content License 1.0", 
+                    "url": "http://licenses.weogeo.com/licenses/1/original.html?1269973409"
+                }, 
+                "content_license_id": 1, 
+                "data_created_on": "2011/11/13", 
+                "data_files_size": 840164453, 
+                "data_type": "VECTOR", 
+                "datum": "NAD83", 
+                "description": "<p><img src=\"http://dv3.weogeo.info/dataset_tiles/448a6804-6813-4c0c-a0d7-499877a952d2/public/US-Census-TIGERLogo.png\" alt=\"\" /><br /><span style=\"font-size: large;\"><strong>TIGER/Line 2010 -- ZIP Code Boundaries for California</strong></span></p><hr /><p>State: California</p><p>FIPS Code: 06</p><hr /><p>ZIP codes are a system of postal codes used by the <a href=\"http://usps.com\" target=\"_blank\">United States Postal Service</a> (USPS) since 1963. The term ZIP, an acronym for <strong>Zone Improvement Plan</strong>, is properly written in capital letters and was chosen to suggest that the mail travels more efficiently, and therefore more quickly, when senders use the code in the postal address. The basic format consists of five decimal numerical digits.</p><p>&nbsp;</p><p>An extended ZIP+4 code, introduced in the 1980s, includes the five digits of the ZIP code, a hyphen, and four more digits that determine a more precise location than the ZIP code alone. <em>Visit <a href=\"http://en.wikipedia.org/wiki/ZIP_code\" target=\"_blank\">Wikipedia</a> for more information about ZIP Codes.</em></p><hr /><p><strong>Attribution:</strong> Portions of the preview tiles displayed have been derived from the OpenStreetMap project data. They are used to provide contextual information only and will not be delivered as a part of this order. &copy; <a href=\"http://www.openstreetmap.org/\" target=\"_blank\">OpenStreetMap</a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\" target=\"_blank\">CC-BY-SA</a>.</p>", 
+                "east": -114.131211, 
+                "events_api_url": "https://market.weogeo.com/datasets/5c910ad3-fc69-4023-b180-8c862639eadb/events.json", 
+                "events_api_url_template": "https://market.weogeo.com/datasets/5c910ad3-fc69-4023-b180-8c862639eadb/events/${id}.json", 
+                "file_format": "shape", 
+                "from_appliance?": false, 
+                "group_ids": [], 
+                "hosted": true, 
+                "is_library_transfer": false, 
+                "kml_file_size": 350501, 
+                "large_job_size_threshold": null, 
+                "layer_contributions": null, 
+                "layers": [
+                    "Layer_1"
+                ], 
+                "library": {
+                    "csw_url": "http://tiger-market.weogeo.com/csw", 
+                    "dataset_api_url_template": "https://tiger.weogeo.com/datasets/${id}.json", 
+                    "dataset_page_url_template": "https://tiger.weogeo.com/datasets/${id}", 
+                    "datasets_api_url": "https://tiger.weogeo.com/datasets.json", 
+                    "id": 39, 
+                    "job_url_template": "https://tiger.weogeo.com/jobs/${id}.json", 
+                    "name": "TIGER", 
+                    "private_store_url": "http://tiger-market.weogeo.com/", 
+                    "subdomain": "tiger", 
+                    "tier_name": "enterprise"
+                }, 
+                "listing_status": {
+                    "library": {
+                        "ready": true, 
+                        "status_causes": []
+                    }, 
+                    "market": {
+                        "ready": true, 
+                        "status_causes": []
+                    }, 
+                    "process": {
+                        "ready": true, 
+                        "status_causes": []
+                    }
+                }, 
+                "market": "Complete", 
+                "max_price": 0.0, 
+                "min_price": 0.0, 
+                "misc_files_size": 0, 
+                "name": "2010 California ZIP Code Boundaries", 
+                "north": 42.009517, 
+                "number_of_layers": 1, 
+                "order_all_data_allowed?": true, 
+                "page_url": "https://market.weogeo.com/datasets/tiger-2010-california-zip-code-boundaries", 
+                "parents_count": 0, 
+                "permalink": "tiger-2010-california-zip-code-boundaries", 
+                "price_lut": null, 
+                "price_type": "FIXED", 
+                "projection": "geo", 
+                "rating": 0.0, 
+                "royalty_model": "CREDITED", 
+                "scales": "5;6;7;8;9;10;11", 
+                "south": 32.528832, 
+                "spatial_resolution": 1.0, 
+                "spatial_resolution_in_meters": 88675.35771012884, 
+                "status": "Approved", 
+                "tile_file_format": "png", 
+                "tile_layer_type": "xyz", 
+                "tile_order": "yx", 
+                "token": "5c910ad3-fc69-4023-b180-8c862639eadb", 
+                "transaction_fee_rate": 0.1, 
+                "uploaded_at": "2011/11/14 23:23:13 +0000", 
+                "user": {
+                    "rating": 5.0, 
+                    "username": null, 
+                    "votes": 2
+                }, 
+                "votes": 0, 
+                "weofile_url": "https://market.weogeo.com/datasets/tiger-2010-california-zip-code-boundaries.weo", 
+                "west": -124.482003, 
+                "x_conv": null, 
+                "y_conv": null
+            }, 
+            {
+                "ancestors_price": 0.0, 
+                "api_url": "https://market.weogeo.com/datasets/tiger-line-california-school-district-boundaries.json", 
+                "boundaries": {
+                    "baseimage": {
+                        "east": -114.131211, 
+                        "line_pixel_size": "-0.0404327812", 
+                        "north": 42.4445705, 
+                        "number_of_lines": "256", 
+                        "number_of_samples": "256", 
+                        "proj4": "+proj=latlong +datum=WGS84", 
+                        "projection_datum": "geo-wgs84", 
+                        "sample_pixel_size": "0.0404327813", 
+                        "south": 32.0937785, 
+                        "west": -124.482003
+                    }, 
+                    "data": {
+                        "projection_datum": "geo-nad83"
+                    }, 
+                    "geo": {
+                        "east": -114.131211, 
+                        "line_pixel_size": "-0.0009925278", 
+                        "north": 42.009517, 
+                        "number_of_lines": "9552", 
+                        "number_of_samples": "10429", 
+                        "proj4": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs ", 
+                        "projection_datum": "geo-wgs84", 
+                        "sample_pixel_size": "0.0009925278", 
+                        "south": 32.528832, 
+                        "west": -124.482003
+                    }, 
+                    "preview": {
+                        "projection_datum": "Unknown-UNKNOWN"
+                    }, 
+                    "tiles": {
+                        "east": -114.131211, 
+                        "line_pixel_size": "-0.0009480685", 
+                        "north": 42.009517, 
+                        "number_of_lines": "10000", 
+                        "number_of_samples": "10000", 
+                        "proj4": "+proj=latlong +datum=WGS84", 
+                        "projection_datum": "geo-wgs84", 
+                        "sample_pixel_size": "0.0010350792", 
+                        "south": 32.528832, 
+                        "west": -124.482003
+                    }
+                }, 
+                "center_lat": 37.2691745, 
+                "center_long": -119.306607, 
+                "children_count": 0, 
+                "content_license": {
+                    "name": "WeoGeo Content License 1.0", 
+                    "url": "http://licenses.weogeo.com/licenses/1/original.html?1269973409"
+                }, 
+                "content_license_id": 1, 
+                "data_created_on": null, 
+                "data_files_size": 14632698, 
+                "data_type": "VECTOR", 
+                "datum": "NAD83", 
+                "description": "<p><img title=\"US Census Bureau TIGER/Line Logo\" src=\"http://dv3.weogeo.info/dataset_tiles/448a6804-6813-4c0c-a0d7-499877a952d2/public/US-Census-TIGERLogo.png\" alt=\"US Census Bureau TIGER/Line Logo\" /></p><p><strong style=\"font-size: large;\">TIGER/Line 2011 -- School District Boundary Files for California</strong></p><hr /><p>State: California</p><p>FIPS Code: 06</p><hr /><p>This is a US Census TIGER/Line 2011 listing comprised of school district boundary products. The customizable layers for California are as follows:</p><table><tbody><tr><td><strong>elsd&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td>School District--Elementary</td></tr><tr><td><strong>scsd&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td>School District--Secondary</td></tr><tr><td><strong>unsd&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td>School District--Unified</td></tr></tbody></table><p>&nbsp;&nbsp;</p><hr /><p><em><strong>Supplemental Information about the US Census Bureau's TIGER/Line Data</strong></em></p><p><em><strong><br /></strong></em></p><p><a href=\"http://www.census.gov/geo/www/tiger/\">TIGER/Line</a> is a format used by the <a href=\"http://www.census.gov\">United States Census Bureau</a> to describe land attributes such as roads, buildings, rivers, and lakes, as well as areas such as census tracts. TIGER/Line was developed to support and improve the Bureau's process of taking the Decennial Census.</p><p><br /> <strong>Folder Structure:</strong> <br /> TIGER/Line 2011 is delivered in folder structure by <em>TIGER2011 &gt; Layer &gt; Files</em> <br /> <br /> <strong>File Naming Convention:</strong> <br /> tl_2011_[extent]_[layer].[ext]<br /> <em>Where</em> tl = TIGER/Line<br /> <em>Where</em> [extent] = parent geography entity ID code<br /> <em>Where</em> [layer] = layer tag (i.e. edges, faces, etc.)<br /> <em>Where</em> [ext] = File extension<br /> <br /> The <strong> <em>entity ID code</em> </strong> refers to a data file's geographic extent. State files have a 2 digit entity ID (ex: /tl_2011_41_bg.shp) while county data uses a 5 digit entity ID (ex: /tl_2011_41051_edges.shp). These numbers refer to a location's FIPS code.</p><p>&nbsp;</p><p>Further information about the specifics of these layers can be found in the <a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/documentation.html\">online technical documentation</a>.</p><p>&nbsp;</p><table><tbody><tr><td><strong>Chapter 1</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_Ch1.pdf.pdf\">Introduction</a></td></tr><tr><td><strong>Chapter 2</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_Ch2.pdf\">About the 2011 Census TIGER/Line Shapefiles</a></td></tr><tr><td><strong>Chapter 3</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_Ch3.pdf\">Structure &amp; Format</a></td></tr><tr><td><strong>Chapter 4</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_Ch4.pdf\">Shapefile Attribute Terms GlossaryGeographic Concept Overview</a></td></tr><tr><td><strong>Chapter 5</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_Ch5.pdf\">Geographic Shapefile Concepts Overview</a></td></tr><tr><td><strong>Chapter 6</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_Ch6.pdf\">Relationship File Concept Overview</a></td></tr><tr><td><strong>Appendix&nbsp;A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_A.pdf\">Complete Record Layout</a></td></tr><tr><td><strong>Appendix B</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_B.pdf\">Pseudo-School Districts</a></td></tr><tr><td><strong>Appendix C</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_C.pdf\">Feature Name Directionals</a></td></tr><tr><td><strong>Appendix D</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_D.pdf\">Feature Name Qualifiers</a></td></tr><tr><td><strong>Appendix E</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_E.pdf\">Feature Name Types</a></td></tr><tr><td><strong>Appendix F</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_F.pdf\">MAF/TIGER Feature Class Code (MTFCC) Definitions</a></td></tr></tbody></table>", 
+                "east": -114.131211, 
+                "events_api_url": "https://market.weogeo.com/datasets/1a4d4a22-d84b-4cb3-b874-1a99bf6d42eb/events.json", 
+                "events_api_url_template": "https://market.weogeo.com/datasets/1a4d4a22-d84b-4cb3-b874-1a99bf6d42eb/events/${id}.json", 
+                "file_format": "shape", 
+                "from_appliance?": false, 
+                "group_ids": [], 
+                "hosted": true, 
+                "is_library_transfer": false, 
+                "kml_file_size": 280784, 
+                "large_job_size_threshold": null, 
+                "layer_contributions": null, 
+                "layers": [
+                    "School District--Elementary", 
+                    "School District--Secondary", 
+                    "School District--Unified"
+                ], 
+                "library": {
+                    "csw_url": "http://tiger-market.weogeo.com/csw", 
+                    "dataset_api_url_template": "https://tiger.weogeo.com/datasets/${id}.json", 
+                    "dataset_page_url_template": "https://tiger.weogeo.com/datasets/${id}", 
+                    "datasets_api_url": "https://tiger.weogeo.com/datasets.json", 
+                    "id": 39, 
+                    "job_url_template": "https://tiger.weogeo.com/jobs/${id}.json", 
+                    "name": "TIGER", 
+                    "private_store_url": "http://tiger-market.weogeo.com/", 
+                    "subdomain": "tiger", 
+                    "tier_name": "enterprise"
+                }, 
+                "listing_status": {
+                    "library": {
+                        "ready": true, 
+                        "status_causes": []
+                    }, 
+                    "market": {
+                        "ready": true, 
+                        "status_causes": []
+                    }, 
+                    "process": {
+                        "ready": true, 
+                        "status_causes": []
+                    }
+                }, 
+                "market": "Complete", 
+                "max_price": 0.0, 
+                "min_price": 0.0, 
+                "misc_files_size": 0, 
+                "name": "TIGER/Line School District Boundaries - California", 
+                "north": 42.009517, 
+                "number_of_layers": 3, 
+                "order_all_data_allowed?": true, 
+                "page_url": "https://market.weogeo.com/datasets/tiger-line-california-school-district-boundaries", 
+                "parents_count": 0, 
+                "permalink": "tiger-line-california-school-district-boundaries", 
+                "price_lut": null, 
+                "price_type": "FIXED", 
+                "projection": "geo", 
+                "rating": 0.0, 
+                "royalty_model": "CREDITED", 
+                "scales": "4;5;6;7;8;9;10", 
+                "south": 32.528832, 
+                "spatial_resolution": 0, 
+                "spatial_resolution_in_meters": 0.0, 
+                "status": "Approved", 
+                "tile_file_format": "png", 
+                "tile_layer_type": "xyz", 
+                "tile_order": "yx", 
+                "token": "1a4d4a22-d84b-4cb3-b874-1a99bf6d42eb", 
+                "transaction_fee_rate": 0.1, 
+                "uploaded_at": "2012/06/26 23:45:34 +0000", 
+                "user": {
+                    "rating": 5.0, 
+                    "username": null, 
+                    "votes": 2
+                }, 
+                "votes": 0, 
+                "weofile_url": "https://market.weogeo.com/datasets/tiger-line-california-school-district-boundaries.weo", 
+                "west": -124.482003, 
+                "x_conv": null, 
+                "y_conv": null
+            }, 
+            {
+                "ancestors_price": 0.0, 
+                "api_url": "https://market.weogeo.com/datasets/tiger-line-california-roads.json", 
+                "boundaries": {
+                    "baseimage": {
+                        "east": -114.131211, 
+                        "line_pixel_size": "-0.0404327812", 
+                        "north": 42.4445705, 
+                        "number_of_lines": "256", 
+                        "number_of_samples": "256", 
+                        "proj4": "+proj=latlong +datum=WGS84", 
+                        "projection_datum": "geo-wgs84", 
+                        "sample_pixel_size": "0.0404327813", 
+                        "south": 32.0937785, 
+                        "west": -124.482003
+                    }, 
+                    "data": {
+                        "projection_datum": "geo-nad83"
+                    }, 
+                    "geo": {
+                        "east": -114.131211, 
+                        "line_pixel_size": "-0.0009925278", 
+                        "north": 42.009517, 
+                        "number_of_lines": "9552", 
+                        "number_of_samples": "10429", 
+                        "proj4": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs ", 
+                        "projection_datum": "geo-wgs84", 
+                        "sample_pixel_size": "0.0009925278", 
+                        "south": 32.528832, 
+                        "west": -124.482003
+                    }, 
+                    "preview": {
+                        "projection_datum": "Unknown-UNKNOWN"
+                    }, 
+                    "tiles": {
+                        "east": -114.131211, 
+                        "line_pixel_size": "-0.0009480685", 
+                        "north": 42.009517, 
+                        "number_of_lines": "10000", 
+                        "number_of_samples": "10000", 
+                        "proj4": "+proj=latlong +datum=WGS84", 
+                        "projection_datum": "geo-wgs84", 
+                        "sample_pixel_size": "0.0010350792", 
+                        "south": 32.528832, 
+                        "west": -124.482003
+                    }
+                }, 
+                "center_lat": 37.2691745, 
+                "center_long": -119.306607, 
+                "children_count": 0, 
+                "content_license": {
+                    "name": "WeoGeo Content License 1.0", 
+                    "url": "http://licenses.weogeo.com/licenses/1/original.html?1269973409"
+                }, 
+                "content_license_id": 1, 
+                "data_created_on": null, 
+                "data_files_size": 772230376, 
+                "data_type": "VECTOR", 
+                "datum": "NAD83", 
+                "description": "<p><img title=\"US Census Bureau TIGER/Line Logo\" src=\"http://dv3.weogeo.info/dataset_tiles/448a6804-6813-4c0c-a0d7-499877a952d2/public/US-Census-TIGERLogo.png\" alt=\"US Census Bureau TIGER/Line Logo\" /></p><p><strong style=\"font-size: large;\">TIGER/Line 2011 -- Roads &amp; Rails for California</strong>&nbsp;</p><hr /><p>State: California</p><p>FIPS Code: 06&nbsp;</p><hr /><p>This is a US Census TIGER/Line 2011 listing comprised of four Roads-based products. The customizable layers for California are as follows:</p><table><tbody><tr><td><strong>primaryroads&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td>Primary Roads (State Level)</td></tr><tr><td><strong>prisecroads</strong></td><td>Primary/Secondary Roads (State Level)</td></tr><tr><td><strong>roads</strong></td><td>All Roads (County Level)</td></tr><tr><td><strong>rails</strong></td><td>Railroads (National Level)</td></tr></tbody></table><p>&nbsp;</p><p>TIGER/Line Road data is available here at the state level for ease of delivery. If your area of interest for road data spans multiple states, you can submit a single request on one of the National TIGER/Line listings. Visit the appropriate link of the following National listings and create your AOI then select the desireable layers from the Customization options.</p><p>&nbsp;</p><p><a title=\"TIGER/Line Primary and Secondary Roads (National Listing)\" href=\"http://market.weogeo.com/datasets/tiger-line-2011-state-based-files.html\" target=\"_blank\">Primary &amp; Secondary Roads Layers</a><br /><a title=\"TIGER/Line All Roads (National Listing)\" href=\"http://market.weogeo.com/datasets/tiger-line-2011-state-based-files.html\">All Roads Layer</a></p><hr /><p><em><strong>Supplemental Information about the US Census Bureau's TIGER/Line Data</strong></em></p><p><em><strong><br /></strong></em></p><p><a href=\"http://www.census.gov/geo/www/tiger/\">TIGER/Line</a> is a format used by the <a href=\"http://www.census.gov\">United States Census Bureau</a> to describe land attributes such as roads, buildings, rivers, and lakes, as well as areas such as census tracts. TIGER/Line was developed to support and improve the Bureau's process of taking the Decennial Census.</p><p><br /> <strong>Folder Structure:</strong> <br /> TIGER/Line 2011 is delivered in folder structure by <em>TIGER2011 &gt; Layer &gt; Files</em> <br /> <br /> <strong>File Naming Convention:</strong> <br /> tl_2011_[extent]_[layer].[ext]<br /> <em>Where</em> tl = TIGER/Line<br /> <em>Where</em> [extent] = parent geography entity ID code<br /> <em>Where</em> [layer] = layer tag (i.e. edges, faces, etc.)<br /> <em>Where</em> [ext] = File extension<br /> <br /> The <strong> <em>entity ID code</em> </strong> refers to a data file's geographic extent. State files have a 2 digit entity ID (ex: /tl_2011_41_bg.shp) while county data uses a 5 digit entity ID (ex: /tl_2011_41051_edges.shp). These numbers refer to a location's FIPS code.</p><p>&nbsp;</p><p>Further information about the specifics of these layers can be found in the <a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/documentation.html\">online technical documentation</a>.</p><p>&nbsp;</p><table><tbody><tr><td><strong>Chapter 1</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_Ch1.pdf.pdf\">Introduction</a></td></tr><tr><td><strong>Chapter 2</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_Ch2.pdf\">About the 2011 Census TIGER/Line Shapefiles</a></td></tr><tr><td><strong>Chapter 3</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_Ch3.pdf\">Structure &amp; Format</a></td></tr><tr><td><strong>Chapter 4</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_Ch4.pdf\">Shapefile Attribute Terms GlossaryGeographic Concept Overview</a></td></tr><tr><td><strong>Chapter 5</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_Ch5.pdf\">Geographic Shapefile Concepts Overview</a></td></tr><tr><td><strong>Chapter 6</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_Ch6.pdf\">Relationship File Concept Overview</a></td></tr><tr><td><strong>Appendix&nbsp;A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_A.pdf\">Complete Record Layout</a></td></tr><tr><td><strong>Appendix B</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_B.pdf\">Pseudo-School Districts</a></td></tr><tr><td><strong>Appendix C</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_C.pdf\">Feature Name Directionals</a></td></tr><tr><td><strong>Appendix D</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_D.pdf\">Feature Name Qualifiers</a></td></tr><tr><td><strong>Appendix E</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_E.pdf\">Feature Name Types</a></td></tr><tr><td><strong>Appendix F</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_F.pdf\">MAF/TIGER Feature Class Code (MTFCC) Definitions</a></td></tr></tbody></table>", 
+                "east": -114.131211, 
+                "events_api_url": "https://market.weogeo.com/datasets/fd732c1b-880b-4ea2-ac4e-60e8f95d677f/events.json", 
+                "events_api_url_template": "https://market.weogeo.com/datasets/fd732c1b-880b-4ea2-ac4e-60e8f95d677f/events/${id}.json", 
+                "file_format": "shape", 
+                "from_appliance?": false, 
+                "group_ids": [], 
+                "hosted": true, 
+                "is_library_transfer": false, 
+                "kml_file_size": 193954, 
+                "large_job_size_threshold": null, 
+                "layer_contributions": null, 
+                "layers": [
+                    "Primary Roads", 
+                    "Primary and Secondary Roads", 
+                    "All Roads", 
+                    "Rails"
+                ], 
+                "library": {
+                    "csw_url": "http://tiger-market.weogeo.com/csw", 
+                    "dataset_api_url_template": "https://tiger.weogeo.com/datasets/${id}.json", 
+                    "dataset_page_url_template": "https://tiger.weogeo.com/datasets/${id}", 
+                    "datasets_api_url": "https://tiger.weogeo.com/datasets.json", 
+                    "id": 39, 
+                    "job_url_template": "https://tiger.weogeo.com/jobs/${id}.json", 
+                    "name": "TIGER", 
+                    "private_store_url": "http://tiger-market.weogeo.com/", 
+                    "subdomain": "tiger", 
+                    "tier_name": "enterprise"
+                }, 
+                "listing_status": {
+                    "library": {
+                        "ready": true, 
+                        "status_causes": []
+                    }, 
+                    "market": {
+                        "ready": true, 
+                        "status_causes": []
+                    }, 
+                    "process": {
+                        "ready": true, 
+                        "status_causes": []
+                    }
+                }, 
+                "market": "Complete", 
+                "max_price": 0.0, 
+                "min_price": 0.0, 
+                "misc_files_size": 0, 
+                "name": "TIGER/Line Roads - California", 
+                "north": 42.009517, 
+                "number_of_layers": 4, 
+                "order_all_data_allowed?": true, 
+                "page_url": "https://market.weogeo.com/datasets/tiger-line-california-roads", 
+                "parents_count": 0, 
+                "permalink": "tiger-line-california-roads", 
+                "price_lut": null, 
+                "price_type": "FIXED", 
+                "projection": "geo", 
+                "rating": 0.0, 
+                "royalty_model": "CREDITED", 
+                "scales": "4;5;6;7;8;9;10;11;12;13", 
+                "south": 32.528832, 
+                "spatial_resolution": 0, 
+                "spatial_resolution_in_meters": 0.0, 
+                "status": "Approved", 
+                "tile_file_format": "png", 
+                "tile_layer_type": "xyz", 
+                "tile_order": "yx", 
+                "token": "fd732c1b-880b-4ea2-ac4e-60e8f95d677f", 
+                "transaction_fee_rate": 0.1, 
+                "uploaded_at": "2012/06/27 20:38:51 +0000", 
+                "user": {
+                    "rating": 5.0, 
+                    "username": null, 
+                    "votes": 2
+                }, 
+                "votes": 0, 
+                "weofile_url": "https://market.weogeo.com/datasets/tiger-line-california-roads.weo", 
+                "west": -124.482003, 
+                "x_conv": null, 
+                "y_conv": null
+            }, 
+            {
+                "ancestors_price": 0.0, 
+                "api_url": "https://market.weogeo.com/datasets/tiger-line-california-water-boundaries.json", 
+                "boundaries": {
+                    "baseimage": {
+                        "east": -114.131211, 
+                        "line_pixel_size": "-0.0404327812", 
+                        "north": 42.4445705, 
+                        "number_of_lines": "256", 
+                        "number_of_samples": "256", 
+                        "proj4": "+proj=latlong +datum=WGS84", 
+                        "projection_datum": "geo-wgs84", 
+                        "sample_pixel_size": "0.0404327813", 
+                        "south": 32.0937785, 
+                        "west": -124.482003
+                    }, 
+                    "data": {
+                        "projection_datum": "geo-nad83"
+                    }, 
+                    "geo": {
+                        "east": -114.131211, 
+                        "line_pixel_size": "-0.0009925278", 
+                        "north": 42.009517, 
+                        "number_of_lines": "9552", 
+                        "number_of_samples": "10429", 
+                        "proj4": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs ", 
+                        "projection_datum": "geo-wgs84", 
+                        "sample_pixel_size": "0.0009925278", 
+                        "south": 32.528832, 
+                        "west": -124.482003
+                    }, 
+                    "preview": {
+                        "projection_datum": "Unknown-UNKNOWN"
+                    }, 
+                    "tiles": {
+                        "east": -114.131211, 
+                        "line_pixel_size": "-0.0009480685", 
+                        "north": 42.009517, 
+                        "number_of_lines": "10000", 
+                        "number_of_samples": "10000", 
+                        "proj4": "+proj=latlong +datum=WGS84", 
+                        "projection_datum": "geo-wgs84", 
+                        "sample_pixel_size": "0.0010350792", 
+                        "south": 32.528832, 
+                        "west": -124.482003
+                    }
+                }, 
+                "center_lat": 37.2691745, 
+                "center_long": -119.306607, 
+                "children_count": 0, 
+                "content_license": {
+                    "name": "WeoGeo Content License 1.0", 
+                    "url": "http://licenses.weogeo.com/licenses/1/original.html?1269973409"
+                }, 
+                "content_license_id": 1, 
+                "data_created_on": null, 
+                "data_files_size": 321299558, 
+                "data_type": "VECTOR", 
+                "datum": "NAD83", 
+                "description": "<p><img title=\"US Census Bureau TIGER/Line Logo\" src=\"http://dv3.weogeo.info/dataset_tiles/448a6804-6813-4c0c-a0d7-499877a952d2/public/US-Census-TIGERLogo.png\" alt=\"US Census Bureau TIGER/Line Logo\" /></p><p><strong style=\"font-size: large;\">TIGER/Line 2011 -- Water Boundary Files for California</strong>&nbsp;</p><hr /><p>State: California</p><p>FIPS Code: 06</p><hr /><p>This is a US Census TIGER/Line 2011 listing comprised of two hydrology products. The customizable layers for California are as follows:</p><table border=\"0\"><tbody><tr><td><strong>areawater</strong></td><td>Water Polygons (County Level)</td></tr><tr><td><strong>linearwater&nbsp;&nbsp;&nbsp;&nbsp;<br /></strong></td><td>Water Lines (County Level)</td></tr></tbody></table><p>&nbsp;</p><hr /><p><em><strong>Supplemental Information about the US Census Bureau's TIGER/Line Data</strong></em></p><p><em><strong><br /></strong></em></p><p><a href=\"http://www.census.gov/geo/www/tiger/\">TIGER/Line</a> is a format used by the <a href=\"http://www.census.gov\">United States Census Bureau</a> to describe land attributes such as roads, buildings, rivers, and lakes, as well as areas such as census tracts. TIGER/Line was developed to support and improve the Bureau's process of taking the Decennial Census.</p><p><br /> <strong>Folder Structure:</strong> <br /> TIGER/Line 2011 is delivered in folder structure by <em>TIGER2011 &gt; Layer &gt; Files</em> <br /> <br /> <strong>File Naming Convention:</strong> <br /> tl_2011_[extent]_[layer].[ext]<br /> <em>Where</em> tl = TIGER/Line<br /> <em>Where</em> [extent] = parent geography entity ID code<br /> <em>Where</em> [layer] = layer tag (i.e. edges, faces, etc.)<br /> <em>Where</em> [ext] = File extension<br /> <br /> The <strong> <em>entity ID code</em> </strong> refers to a data file's geographic extent. State files have a 2 digit entity ID (ex: /tl_2011_41_bg.shp) while county data uses a 5 digit entity ID (ex: /tl_2011_41051_edges.shp). These numbers refer to a location's FIPS code.</p><p>&nbsp;</p><p>Further information about the specifics of these layers can be found in the <a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/documentation.html\">online technical documentation</a>.</p><p>&nbsp;</p><table><tbody><tr><td><strong>Chapter 1</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_Ch1.pdf.pdf\">Introduction</a></td></tr><tr><td><strong>Chapter 2</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_Ch2.pdf\">About the 2011 Census TIGER/Line Shapefiles</a></td></tr><tr><td><strong>Chapter 3</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_Ch3.pdf\">Structure &amp; Format</a></td></tr><tr><td><strong>Chapter 4</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_Ch4.pdf\">Shapefile Attribute Terms GlossaryGeographic Concept Overview</a></td></tr><tr><td><strong>Chapter 5</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_Ch5.pdf\">Geographic Shapefile Concepts Overview</a></td></tr><tr><td><strong>Chapter 6</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_Ch6.pdf\">Relationship File Concept Overview</a></td></tr><tr><td><strong>Appendix&nbsp;A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_A.pdf\">Complete Record Layout</a></td></tr><tr><td><strong>Appendix B</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_B.pdf\">Pseudo-School Districts</a></td></tr><tr><td><strong>Appendix C</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_C.pdf\">Feature Name Directionals</a></td></tr><tr><td><strong>Appendix D</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_D.pdf\">Feature Name Qualifiers</a></td></tr><tr><td><strong>Appendix E</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_E.pdf\">Feature Name Types</a></td></tr><tr><td><strong>Appendix F</strong></td><td><a href=\"http://www.census.gov/geo/www/tiger/tgrshp2011/TGRSHP2011_TechDoc_F.pdf\">MAF/TIGER Feature Class Code (MTFCC) Definitions</a></td></tr></tbody></table>", 
+                "east": -114.131211, 
+                "events_api_url": "https://market.weogeo.com/datasets/e1f0bcce-30cb-4890-81e2-e5e768c7ddfa/events.json", 
+                "events_api_url_template": "https://market.weogeo.com/datasets/e1f0bcce-30cb-4890-81e2-e5e768c7ddfa/events/${id}.json", 
+                "file_format": "shape", 
+                "from_appliance?": false, 
+                "group_ids": [], 
+                "hosted": true, 
+                "is_library_transfer": false, 
+                "kml_file_size": 145328, 
+                "large_job_size_threshold": null, 
+                "layer_contributions": null, 
+                "layers": [
+                    "Area Hydrography", 
+                    "Linear Hydrography"
+                ], 
+                "library": {
+                    "csw_url": "http://tiger-market.weogeo.com/csw", 
+                    "dataset_api_url_template": "https://tiger.weogeo.com/datasets/${id}.json", 
+                    "dataset_page_url_template": "https://tiger.weogeo.com/datasets/${id}", 
+                    "datasets_api_url": "https://tiger.weogeo.com/datasets.json", 
+                    "id": 39, 
+                    "job_url_template": "https://tiger.weogeo.com/jobs/${id}.json", 
+                    "name": "TIGER", 
+                    "private_store_url": "http://tiger-market.weogeo.com/", 
+                    "subdomain": "tiger", 
+                    "tier_name": "enterprise"
+                }, 
+                "listing_status": {
+                    "library": {
+                        "ready": true, 
+                        "status_causes": []
+                    }, 
+                    "market": {
+                        "ready": true, 
+                        "status_causes": []
+                    }, 
+                    "process": {
+                        "ready": true, 
+                        "status_causes": []
+                    }
+                }, 
+                "market": "Complete", 
+                "max_price": 0.0, 
+                "min_price": 0.0, 
+                "misc_files_size": 0, 
+                "name": "TIGER/Line Water Boundaries - California", 
+                "north": 42.009517, 
+                "number_of_layers": 2, 
+                "order_all_data_allowed?": true, 
+                "page_url": "https://market.weogeo.com/datasets/tiger-line-california-water-boundaries", 
+                "parents_count": 0, 
+                "permalink": "tiger-line-california-water-boundaries", 
+                "price_lut": null, 
+                "price_type": "FIXED", 
+                "projection": "geo", 
+                "rating": 0.0, 
+                "royalty_model": "CREDITED", 
+                "scales": "4;5;6;7;8;9;10", 
+                "south": 32.528832, 
+                "spatial_resolution": 0, 
+                "spatial_resolution_in_meters": 0.0, 
+                "status": "Approved", 
+                "tile_file_format": "png", 
+                "tile_layer_type": "xyz", 
+                "tile_order": "yx", 
+                "token": "e1f0bcce-30cb-4890-81e2-e5e768c7ddfa", 
+                "transaction_fee_rate": 0.1, 
+                "uploaded_at": "2012/06/27 23:43:31 +0000", 
+                "user": {
+                    "rating": 5.0, 
+                    "username": null, 
+                    "votes": 2
+                }, 
+                "votes": 0, 
+                "weofile_url": "https://market.weogeo.com/datasets/tiger-line-california-water-boundaries.weo", 
+                "west": -124.482003, 
+                "x_conv": null, 
+                "y_conv": null
+            }, 
+            {
+                "ancestors_price": 0.0, 
+                "api_url": "https://market.weogeo.com/datasets/open_usgs_national_hydrography_dataset_nevada.json", 
+                "boundaries": {
+                    "baseimage": {
+                        "east": -111.2788890861, 
+                        "line_pixel_size": "-0.0363791893", 
+                        "north": 44.373543, 
+                        "number_of_lines": "316", 
+                        "number_of_samples": "316", 
+                        "proj4": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs", 
+                        "projection_datum": "geo-wgs84", 
+                        "sample_pixel_size": "0.0363643407", 
+                        "south": 32.8777191812, 
+                        "west": -122.7700207473
+                    }, 
+                    "data": {
+                        "east": 180.0, 
+                        "line_pixel_size": "-1", 
+                        "north": 90.0, 
+                        "number_of_lines": "1", 
+                        "number_of_samples": "1", 
+                        "projection_datum": "mixed", 
+                        "sample_pixel_size": "1", 
+                        "south": -90.0, 
+                        "west": -180.0
+                    }, 
+                    "geo": {
+                        "east": -111.678896866, 
+                        "line_pixel_size": "-0.0229916476", 
+                        "north": 44.373543, 
+                        "number_of_lines": "500", 
+                        "number_of_samples": "465", 
+                        "proj4": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs ", 
+                        "projection_datum": "geo-wgs84", 
+                        "sample_pixel_size": "0.0229916476", 
+                        "south": 32.8777192, 
+                        "west": -122.370013
+                    }, 
+                    "preview": {
+                        "projection_datum": "-UNKNOWN"
+                    }, 
+                    "tiles": {
+                        "east": -111.678896866, 
+                        "line_pixel_size": "-0.0229916476", 
+                        "north": 44.373543, 
+                        "number_of_lines": "500", 
+                        "number_of_samples": "465", 
+                        "proj4": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs", 
+                        "projection_datum": "geo-wgs84", 
+                        "sample_pixel_size": "0.0229916476", 
+                        "south": 32.8777192, 
+                        "west": -122.370013
+                    }
+                }, 
+                "center_lat": 38.6256311, 
+                "center_long": -117.024454933, 
+                "children_count": 0, 
+                "content_license": {
+                    "name": "WeoGeo Content License 1.0", 
+                    "url": "http://licenses.weogeo.com/licenses/1/original.html?1269973409"
+                }, 
+                "content_license_id": 1, 
+                "data_created_on": null, 
+                "data_files_size": 1592915186, 
+                "data_type": "VECTOR", 
+                "datum": "MIXED", 
+                "description": "<a href=\"http://pubs.usgs.gov/sim/2006/2917/images/usgs_logo.gif\" target=\"_blank\"><img src=\"http://pubs.usgs.gov/sim/2006/2917/images/usgs_logo.gif\" width=\"95\" height=\"38\"></a><br><a href=\"http://www.crwr.utexas.edu/gis/gishydro01/class/exercises/nhd_files/nhdlogo.jpg\" target=\"_blank\"><img src=\"http://www.crwr.utexas.edu/gis/gishydro01/class/exercises/nhd_files/nhdlogo.jpg\" width=\"270\" height=\"84\"></a><br>\n<b>USGS National Hydrography Dataset and Watershed Boundaries -- <i>NEVADA</i></b><br>\n--------------------------------------------------------------------------------------------------------------<br>\n<b>Note:</b> This version of the National Hydrography Dataset has been converted from geodatabase format into Esri Shapefiles.<br>\n--------------------------------------------------------------------------------------------------------------\nThe <i>USGS National Hydrography Dataset</i> is a comprehensive set of digital spatial data that represents the surface water of the United States using common features such as lakes, ponds, streams, rivers, canals, streamgages, and dams.<br> Polygons are used to represent area features such as lakes, ponds, and rivers; lines are used to represent linear features such as streams and smaller rivers; and points are used to represent point features such as streamgages and dams. Lines also are used to show the water flow through area features such as the flow of water through a lake. The combination of lines is used to create a network of water and transported material flow to allow users of the data to trace movement in downstream and upstream directions.<br><br>\n<a href=\"http://gisandscience.files.wordpress.com/2009/07/nhd_splash.jpg?w=308&h=210\" target=\"_blank\"><img src=\"http://gisandscience.files.wordpress.com/2009/07/nhd_splash.jpg?w=308&h=210\" width=\"270\" height=\"184\"></a><br><br>\n<b><u>Data Organization:</u></b><br><br>\nThe NHD data are organized into several forms of geometry and into several supporting tables:<br><br>\n    <b><i>NHDFlowline:</i></b> This is the fundamental flow network consisting predominantly of stream/river and artificial path vector features. It represents the spatial geometry, carries the attributes, models the water flow, and contains linear referencing measures for locating events on the network. Additional NHDFlowline features are canal/ditch, pipeline, connector, underground conduit, and coastline.<br><br>\n\nTwo types of polygons represent area features.<br><br>\n    <b><i>NHDWaterbody:</i></b> Basic waterbodies such as lake/pond features are represented here. They portray the spatial geometry and the attributes of the feature. These water polygons may contain NHDFlowline artificial paths to allow the representation of water flow. Other NHDWaterbody features are swamp/marsh, reservoir, playa, estuary, and ice mass.<br><br>\n\n    <b><i>NHDArea:</i></b> This feature class contains many additional features of water polygons. One of the more important is the stream/river feature. It represents the aerial extent of the water in a wide stream/river with a basic set of attributes. They typically contain NHDFlowline artificial paths that are used to model the stream/river. Artificial path carries the critical attributes of the stream/river, whereas NHDArea represents the geometric extent.<br><br>\n\nTwo other feature classes are used to represent features. NHDLine contains linear features not core to the network, and NHDPoint contains hydrography related point features.<br><br>\n\nFinally, an additional three feature classes represent point, line, and area data events that behave as map features and linearly referenced events. Streamgages, which are point features, can be displayed and identified in the network through linear referencing with a network address. These feature classes are NHDPointEventFC, NHDLineEventFC, and NHDAreaEventFC.<br><br>\nAll description information can be found via the <a href=\"http://nhd.usgs.gov/index.html\" target=\"_blank\">USGS National Hydrography Dataset</a> webpage.<br><br>\n<i>Due to very large data file sizes, processing may take a considerable amount of time. Area of download extent has also been limited in order to keep job orders manageable.</i>", 
+                "east": -111.678896866, 
+                "events_api_url": "https://market.weogeo.com/datasets/c0becbf0-ae74-a851-a564-b2174d8a6864/events.json", 
+                "events_api_url_template": "https://market.weogeo.com/datasets/c0becbf0-ae74-a851-a564-b2174d8a6864/events/${id}.json", 
+                "file_format": "shape", 
+                "from_appliance?": false, 
+                "group_ids": [], 
+                "hosted": true, 
+                "is_library_transfer": false, 
+                "kml_file_size": 232783, 
+                "large_job_size_threshold": null, 
+                "layer_contributions": null, 
+                "layers": [
+                    "HYDRO_NET_Junctions", 
+                    "NHDArea", 
+                    "NHDAreaEventFC", 
+                    "NHDFlowline", 
+                    "NHDLine", 
+                    "NHDLineEventFC", 
+                    "NHDPoint", 
+                    "NHDPointEventFC", 
+                    "NHDWaterbody", 
+                    "Watershed_Boundaries"
+                ], 
+                "library": {
+                    "dataset_api_url_template": "https://open.weogeo.com/datasets/${id}.json", 
+                    "dataset_page_url_template": "https://open.weogeo.com/datasets/${id}", 
+                    "datasets_api_url": "https://open.weogeo.com/datasets.json", 
+                    "id": 83, 
+                    "job_url_template": "https://open.weogeo.com/jobs/${id}.json", 
+                    "name": "WeoGeo", 
+                    "private_store_url": "http://open-market.weogeo.com/", 
+                    "subdomain": "open", 
+                    "tier_name": "enterprise"
+                }, 
+                "listing_status": {
+                    "library": {
+                        "ready": true, 
+                        "status_causes": []
+                    }, 
+                    "market": {
+                        "ready": true, 
+                        "status_causes": []
+                    }, 
+                    "process": {
+                        "ready": true, 
+                        "status_causes": []
+                    }
+                }, 
+                "market": "Complete", 
+                "max_price": 0.0, 
+                "min_price": 0.0, 
+                "misc_files_size": 0, 
+                "name": "USGS National Hydrography Dataset NEVADA", 
+                "north": 44.373543, 
+                "number_of_layers": 10, 
+                "order_all_data_allowed?": true, 
+                "page_url": "https://market.weogeo.com/datasets/open_usgs_national_hydrography_dataset_nevada", 
+                "parents_count": 0, 
+                "permalink": "open_usgs_national_hydrography_dataset_nevada", 
+                "price_lut": [
+                    {
+                        "data": 0.0, 
+                        "price": 0
+                    }, 
+                    {
+                        "data": 0.67407344, 
+                        "price": 1.0
+                    }, 
+                    {
+                        "data": 0.91851836, 
+                        "price": 0.918518361
+                    }
+                ], 
+                "price_type": "FIXED", 
+                "projection": "mixed", 
+                "rating": 0.0, 
+                "royalty_model": "CREDITED", 
+                "scales": "4;5;6;7;8;9", 
+                "south": 32.8777192, 
+                "spatial_resolution": 1.0, 
+                "spatial_resolution_in_meters": 1.0, 
+                "status": "Approved", 
+                "tile_file_format": "png", 
+                "tile_layer_type": "xyz", 
+                "tile_order": "yx", 
+                "token": "c0becbf0-ae74-a851-a564-b2174d8a6864", 
+                "transaction_fee_rate": 0.1, 
+                "uploaded_at": "2011/04/15 18:41:28 +0000", 
+                "user": {
+                    "rating": 5.0, 
+                    "username": null, 
+                    "votes": 1
+                }, 
+                "votes": 0, 
+                "weofile_url": "https://market.weogeo.com/datasets/open_usgs_national_hydrography_dataset_nevada.weo", 
+                "west": -122.370013, 
+                "x_conv": null, 
+                "y_conv": null
+            }, 
+            {
+                "ancestors_price": 0.0, 
+                "api_url": "https://market.weogeo.com/datasets/open-national-wetlands-inventory-ca.json", 
+                "boundaries": {
+                    "baseimage": {
+                        "east": -112.446298447, 
+                        "north": 46.2336666668, 
+                        "number_of_lines": "256", 
+                        "number_of_samples": "256", 
+                        "proj4": "+proj=latlong +datum=WGS84", 
+                        "projection_datum": "geo-wgs84", 
+                        "south": 32.4992589217, 
+                        "west": -126.180706193
+                    }, 
+                    "data": {
+                        "projection_datum": "aea-nad83"
+                    }, 
+                    "geo": {
+                        "east": -114.000219927, 
+                        "line_pixel_size": "-0.0012278727", 
+                        "north": 46.2336666668, 
+                        "number_of_lines": "11186", 
+                        "number_of_samples": "8654", 
+                        "proj4": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs ", 
+                        "projection_datum": "geo-wgs84", 
+                        "sample_pixel_size": "0.0012278727", 
+                        "south": 32.498683023, 
+                        "west": -124.62622998
+                    }, 
+                    "preview": {
+                        "projection_datum": "Unknown-UNKNOWN"
+                    }, 
+                    "tiles": {
+                        "east": -114.00077466, 
+                        "line_pixel_size": "-0.0013734408", 
+                        "north": 46.2336666668, 
+                        "number_of_lines": "10000", 
+                        "number_of_samples": "10000", 
+                        "proj4": "+proj=latlong +datum=WGS84", 
+                        "projection_datum": "geo-wgs84", 
+                        "sample_pixel_size": "0.0010625455", 
+                        "south": 32.4992589217, 
+                        "west": -124.62622998
+                    }
+                }, 
+                "center_lat": 39.3661748449, 
+                "center_long": -119.3132249535, 
+                "children_count": 0, 
+                "content_license": {
+                    "name": "WeoGeo Content License 1.0", 
+                    "url": "http://licenses.weogeo.com/licenses/1/original.html?1269973409"
+                }, 
+                "content_license_id": 1, 
+                "data_created_on": "2012/04/01", 
+                "data_files_size": 1288901732, 
+                "data_type": "VECTOR", 
+                "datum": "NAD83", 
+                "description": "\n<p>&nbsp;</p>\n<p><strong>National Wetlands Inventory: Puerto Rico &amp; Virgin Islands </strong></p>\n<p>&nbsp;</p>\n<p><a href=\"http://www.fws.gov/wetlands/index.html\">National Wetland Inventory</a> data represents the extent, approximate location, and type of wetlands and deepwater habitats in the United States. National Wetland Inventory data currently covers over 80% of the conterminous United States, 30% of Alaska, and all of Hawaii.</p>\n<p>&nbsp;</p>\n<p>These wetland data have been created through the analysis of high-altitude imagery in conjunction with additional\ndata sources and fieldwork. Wetlands are delineated and classified using the <a href=\"http://www.fws.gov/wetlands/Data/Wetland-Codes.html\">Cowardian classification system</a> for wetlands and deepwater habitats. The collection and classification of National Wetland Inventory data is conducted by the <a href=\"http://www.fws.gov/\">United States Fish and Wildlife Service</a> (USFWS), the principal Federal agency that provides the public with information on the Nation's wetlands.</p>\n<p>&nbsp;</p>\n<p><strong>Included Datasets:</strong><br /> <em>Dataset availability varies between states, but at the least, each state includes wetland polygons and public metadata.</em></p>\n<ul>\n<li>Wetland Polygons: digital wetland data</li>\n<li>Scanned Vectors: vectorized scan of hardcopy wetland maps</li>\n<li>Public Metadata: displays the extent, status, and approximate location of current and historic NWI wetland mapping projects</li>\n<li>Public Historic Maps: represents the extent and approximate location of historic map reports generated the FWS and cooperators; provides a spatial footprint in support of the written historic map report.</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Legend:</strong></p>\n<center><img src=\"http://dv3.weogeo.info/dataset_tiles/68c6cc8b-3c3f-4be8-a58e-7762ef5254a8/public/wetlands_legend_horz.PNG\" alt=\"\" /></center>\n<p><em>Digital Data</em>: wetlands data for this area is available as digital vector data</p>\n<p><em>Scan</em>: data for wetlands in this area is available as a scanned and digitized version of a traditional hardcopy map</p>\n<p><em>Non-Digital</em>: data has been collected for this area, but is not yet available in a digital format</p>\n<p><em>No Data</em>: wetland data for this area has not yet been collected</p>\n<p>&nbsp;</p>\n<p><em>NOTES</em></p>\n<ul>\n<li><span style=\"font-size: x-small;\"><em>Data extends beyond the state boundary, as a result two adjacent states will contain some of the same data along their borders.</em></span></li>\n<li><span style=\"font-size: x-small;\"><em><span style=\"font-size: x-small;\">Certain wetland habitats are excluded from National Wetland Inventory data due to limitations associated with the use of aerial imagery as the primary data source used to detect wetlands. Excluded wetland types include seagrasses or submerged aquatic vegetation and deepwater reef communities. Additionally, certain types of \"farmed wetlands\" that do not coincide with the Cowardian wetland definition are excluded from the Inventory</span>.</em></span></li>\n</ul>\n<p>Data Source: <a href=\"http://www.fws.gov/wetlands/Data/State-Downloads.html\">United States Fish and Wildlife Service</a></p>\n", 
+                "east": -114.000219927, 
+                "events_api_url": "https://market.weogeo.com/datasets/8444feba-0a80-4937-84d8-86d5997b13ec/events.json", 
+                "events_api_url_template": "https://market.weogeo.com/datasets/8444feba-0a80-4937-84d8-86d5997b13ec/events/${id}.json", 
+                "file_format": "shape", 
+                "from_appliance?": false, 
+                "group_ids": [], 
+                "hosted": true, 
+                "is_library_transfer": false, 
+                "kml_file_size": 194024, 
+                "large_job_size_threshold": null, 
+                "layer_contributions": null, 
+                "layers": [
+                    "Layer_1", 
+                    "Layer_2"
+                ], 
+                "library": {
+                    "dataset_api_url_template": "https://open.weogeo.com/datasets/${id}.json", 
+                    "dataset_page_url_template": "https://open.weogeo.com/datasets/${id}", 
+                    "datasets_api_url": "https://open.weogeo.com/datasets.json", 
+                    "id": 83, 
+                    "job_url_template": "https://open.weogeo.com/jobs/${id}.json", 
+                    "name": "WeoGeo", 
+                    "private_store_url": "http://open-market.weogeo.com/", 
+                    "subdomain": "open", 
+                    "tier_name": "enterprise"
+                }, 
+                "listing_status": {
+                    "library": {
+                        "ready": true, 
+                        "status_causes": []
+                    }, 
+                    "market": {
+                        "ready": true, 
+                        "status_causes": []
+                    }, 
+                    "process": {
+                        "ready": true, 
+                        "status_causes": []
+                    }
+                }, 
+                "market": "Complete", 
+                "max_price": 0.0, 
+                "min_price": 0.0, 
+                "misc_files_size": 0, 
+                "name": "National Wetlands Inventory: CA", 
+                "north": 46.2336666668, 
+                "number_of_layers": 2, 
+                "order_all_data_allowed?": true, 
+                "page_url": "https://market.weogeo.com/datasets/open-national-wetlands-inventory-ca", 
+                "parents_count": 0, 
+                "permalink": "open-national-wetlands-inventory-ca", 
+                "price_lut": null, 
+                "price_type": "FIXED", 
+                "projection": "aea", 
+                "rating": 0.0, 
+                "royalty_model": "CREDITED", 
+                "scales": "4;5;6;7;8", 
+                "south": 32.498683023, 
+                "spatial_resolution": 0, 
+                "spatial_resolution_in_meters": 0.0, 
+                "status": "Approved", 
+                "tile_file_format": "png", 
+                "tile_layer_type": "xyz", 
+                "tile_order": "yx", 
+                "token": "8444feba-0a80-4937-84d8-86d5997b13ec", 
+                "transaction_fee_rate": 0.1, 
+                "uploaded_at": "2012/04/04 17:11:49 +0000", 
+                "user": {
+                    "rating": 5.0, 
+                    "username": null, 
+                    "votes": 1
+                }, 
+                "votes": 0, 
+                "weofile_url": "https://market.weogeo.com/datasets/open-national-wetlands-inventory-ca.weo", 
+                "west": -124.62622998, 
+                "x_conv": null, 
+                "y_conv": null
+            }
+        ], 
+        "per_page": null, 
+        "total_entries": null, 
+        "total_pages": null
+    }
+]
+553
